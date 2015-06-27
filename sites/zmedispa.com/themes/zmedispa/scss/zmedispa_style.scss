@@ -442,3 +442,27 @@ div.messages.commerce-add-to-cart-confirmation {
     background:url('../images/btn_google.png') no-repeat;
   }
 }
+
+.html {
+  background: #fff;
+}
+
+#zone-user-wrapper {
+  background: #DCB55A;
+}
+
+#zone-menu-wrapper {
+  .block-menu-main-menu {
+    float: right;
+
+    ul.menu li a {
+      background: transparent;
+      border: none;
+      border-left: 1px solid #ccc;
+    }
+
+    ul.menu li.first-leaf a {
+      border-left: none;
+    }
+  }
+}
