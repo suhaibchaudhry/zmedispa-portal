@@ -492,11 +492,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#zone-content-wrapper {
-  #page-title, #block-system-powered-by {
-    display: none;
-  }
-}
+
 
 #zone-preface-wrapper {
   p, h2.block-title {
@@ -506,6 +502,35 @@ h1, h2, h3, h4, h5, h6 {
 
   h2.block-title {
     font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+
+  .region {
+    position: relative;
+    padding: 0 0 40px 0;
+  }
+
+  .block {
+    position: static;
+  }
+
+  div.read-more-button {
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 8px 0;
+
+      a {
+        background-color: #095480;
+        padding: 8px;
+        color: #fff;
+
+        &:hover {
+          font-weight: bold;
+        }
+      }
   }
 }
 
