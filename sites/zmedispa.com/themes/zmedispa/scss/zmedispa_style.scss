@@ -443,26 +443,157 @@ div.messages.commerce-add-to-cart-confirmation {
   }
 }
 
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+
+
 .html {
   background: #fff;
 }
 
 #zone-user-wrapper {
   background: #DCB55A;
+  line-height: 34px;
+
+  .block-block-2 {
+    float: right;
+  }
+
+  p {
+    color: #fff;
+  }
 }
 
 #zone-menu-wrapper {
-  .block-menu-main-menu {
+  #block-superfish-1 {
     float: right;
+    margin: 80px 0 0 0;
 
-    ul.menu li a {
-      background: transparent;
-      border: none;
-      border-left: 1px solid #ccc;
-    }
-
-    ul.menu li.first-leaf a {
+    li.first a {
       border-left: none;
     }
+  
+    li {
+      background: transparent;
+
+      a {
+        border: none;
+        border-left: 1px solid #ccc;
+
+        &:hover, &:focus {
+          background: #fff;
+        }
+      }
+    }
   }
+}
+
+#zone-content-wrapper {
+  #page-title, #block-system-powered-by {
+    display: none;
+  }
+}
+
+#zone-preface-wrapper {
+  p, h2.block-title {
+    text-align: center;
+    color: #015383;
+  }
+
+  h2.block-title {
+    font-weight: bold;
+  }
+}
+
+.zone-wrapper {
+  .zone-header {
+    width: 100%;
+
+    .region-header-first {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
+
+/*Main Menu*/
+
+.zone-branding {
+  .block-superfish-1 {
+    margin: 80px 0 0 0;
+
+     .menu {
+        float: right;
+
+        li {
+          background: transparent;
+          a {
+            border: none;
+          }
+        }
+    }
+  }
+}
+
+.zone-postscript-wrapper {
+  background: #dcb65b;
+    .block-views-testimonial-block {
+      h2 {
+        color: #005382;
+        font-size: 50px;
+        }
+      .views-row {
+        width: 50%;
+        float: left;
+        .views-field-body {
+          float: left;
+          padding: 15px;
+          color: #fff;
+          background: #005382;
+          border-radius: 4px;
+          margin: 10px 20px 10px 0;
+      }
+    }
+  }
+}
+
+.zone-footer-wrapper {
+  background: #000;
+}
+
+.block-menu-menu-footer-menu {
+  float: right;
+    .menu {
+      li {
+        float: left;
+          a {
+            color: #fff;
+          }
+      }
+    }
+  }
+
+.franchise-icon {
+  background: url(/sites/zmedispa.com/files/franchise-icon.png);  
+}
+
+.services-icon {
+  background: url(/sites/zmedispa.com/files/services-icon.png);
+}
+
+.aboutus-icon {
+  background: url(/sites/zmedispa.com/files/aboutus-icon.png);  
+}
+
+.franchise-icon, .services-icon, .aboutus-icon {
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  height: 160px;
+  text-align: center;
+  background-position: center;
+  margin: 10px 108px;
 }
