@@ -30,32 +30,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#zone-menu-wrapper {
-  #block-superfish-1 {
-    float: right;
-    margin: 80px 0 0 0;
-
-    li.first a {
-      border-left: none;
-    }
-  
-    li {
-      background: transparent;
-
-      a {
-        border: none;
-        border-left: 1px solid #ccc;
-
-        &:hover, &:focus {
-          background: #fff;
-        }
-      }
-    }
-  }
-}
-
-
-
 #zone-preface-wrapper {
   p, h2.block-title {
     text-align: center;
