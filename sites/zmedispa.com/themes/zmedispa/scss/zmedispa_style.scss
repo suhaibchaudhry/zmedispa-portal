@@ -170,21 +170,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .front {
-  .zone-midzone3-wrapper {
-  }
   .zone-midzone-wrapper {
     margin-top: 20px;
-    //Image should be cropped, background position should be right, and background color should be set to match gradient decay. Move image to theme folder, since it doesnt go in cpn.
-    background: url(/sites/zmedispa.com/files/meetourdoctors.jpg);
-    height: 300px;
-    background-repeat: no-repeat;
-      .block-block {
-
-        h2 {
-          color: #005382;
-          font-size: 50px;
-        }
+    background: #ced6e1;
+    .region-midzone-first {
+      background: url(../images/meetourdoctors.png);
+      min-height: 300px;
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+    .block-block {
+      h2 {
+        color: #005382;
+        font-size: 50px;
       }
+    }
   }
 }
 
