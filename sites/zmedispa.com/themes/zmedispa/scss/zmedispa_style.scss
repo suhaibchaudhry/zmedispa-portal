@@ -17,6 +17,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
+#zone-postscript {
+  //Reset margin on zone comming from base theme
+  margin-top: 0;
+}
+
 #zone-user-wrapper {
   background: #DCB55A;
   line-height: 34px;
