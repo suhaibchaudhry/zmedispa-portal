@@ -226,6 +226,7 @@ body {
 }
 
 #zone-postscript {
+  margin-top: 0;
   .view-ad-push .views-row .views-field-field-tagline,
   .block-blog-block .views-field-title {
     .field-content {
@@ -621,4 +622,58 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   background-position: center;
   margin: 10px 108px;
+}
+
+
+.zone-midzone3-wrapper {
+  background: #c9c1c1;
+}
+
+.front {
+  .zone-midzone3-wrapper {
+  }
+  .zone-midzone-wrapper {
+    margin-top: 20px;
+    background: url(/sites/zmedispa.com/files/meetourdoctors.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+      .block-block-9 {
+          width: 65%;
+        h2 {
+          color: #005382;
+          font-size: 50px;
+        }
+      }
+  }
+}
+
+.zone-midzone3-wrapper {
+  h2 {
+    font-size: 50px;
+  }
+}
+
+.zone-preface-wrapper, .zone-midzone3-wrapper {
+  .block {
+    h2 {
+      text-align: center;
+      color: #10557E;
+      margin: 0;
+    }
+  }
+}
+
+.page-node-6 {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+  }
+}  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
 }

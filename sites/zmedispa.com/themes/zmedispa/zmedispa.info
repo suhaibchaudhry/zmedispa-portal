@@ -26,6 +26,8 @@ regions[sidebar_second] = Sidebar Second
 regions[header_first] = Header First
 regions[header_second] = Header Second
 
+regions[header2_first] = Header 2 First
+
 regions[preface_first] = Preface First
 regions[preface_second] = Preface Second
 regions[preface_third] = Preface Third
@@ -33,6 +35,10 @@ regions[preface_third] = Preface Third
 regions[postscript_first] = Postscript First
 regions[postscript_second] = Postscript Second
 regions[postscript_third] = Postscript Third
+
+regions[midzone_first] = Midzone First
+regions[midzone2_first] = Midzone 2 First
+regions[midzone3_first] = Midzone 3 First
 
 regions[footer_first] = Footer First
 regions[footer_second] = Footer Second
@@ -47,9 +53,13 @@ zones[user] = User
 zones[branding] = Branding
 zones[menu] = Menu
 zones[header] = Header
+zones[header2] = Header Two
 zones[preface] = Preface
 zones[content] = Content
 zones[postscript] = Postscript
+zones[midzone] = Middle First
+zones[midzone2] = Middle Second
+zones[midzone3] = Middle Third
 zones[footer] = Footer first
 zones[footer2] = Footer second
 
