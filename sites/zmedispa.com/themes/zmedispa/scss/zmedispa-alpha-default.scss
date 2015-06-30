@@ -4,3 +4,14 @@
 @import "_variables.scss";
 @import "_mixins.scss";
 /* End Variables & Mixins */
+
+.front {
+  .zone-midzone-wrapper {
+    .region-midzone-first {
+      background: url(../images/meetourdoctors.png);
+      min-height: 300px;
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+  }
+}
