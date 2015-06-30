@@ -198,13 +198,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+//Should be moved in to the CPN of that particular node.
 .page-node-6 {
   .zone-content {
    .region-content {
       position: relative;
       bottom: 70px;
-  }
-}  
+   }
+  }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
     height: 300px;
