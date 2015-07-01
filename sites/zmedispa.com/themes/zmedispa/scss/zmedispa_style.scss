@@ -196,6 +196,9 @@ body {
   .zone-midzone-wrapper {
     margin-top: 20px;
     background: #ced6e1;
+    .region {
+	padding-bottom: 20px;
+    }
     .block-block {
       h2 {
         color: #005382;
