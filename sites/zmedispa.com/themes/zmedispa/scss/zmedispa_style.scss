@@ -75,11 +75,7 @@ body {
 	@include float();
         background-color: #095480;
         padding: 8px;
-        color: #fff;
-
-        &:hover {
-          font-weight: bold;
-        }
+        color: #fff; 
       }
   }
 }
