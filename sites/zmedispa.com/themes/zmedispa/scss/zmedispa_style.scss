@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+body {
+  font-family: helvetica, "Open Sans", sans-serif;
+  font-weight: 200;
+}
 
 
 .html {
@@ -108,6 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 .zone-postscript-wrapper {
   background: #dcb65b;
     .block-views-testimonial-block {
+      margin: 20px 0 0 0;
       h2 {
         color: #005382;
         font-size: 50px;
@@ -115,6 +120,17 @@ h1, h2, h3, h4, h5, h6 {
       .views-row {
         width: 50%;
         float: left;
+        .views-field-field-name {
+          font-size: 18px;
+          color: #005382;
+          font-weight: 400;
+        }
+        .views-field-field-client-title {
+          font-style: italic;
+          font-size: 18px;
+          color: #000000;
+          text-transform: lowercase;
+        }
         .views-field-body {
           float: left;
           padding: 15px;
@@ -167,7 +183,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .zone-midzone3-wrapper {
   background: #c9c1c1;
+    h2 {
+      font-size: 50px;
+  }
 }
+
+
+
 
 .front {
   .zone-midzone-wrapper {
@@ -182,9 +204,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.zone-midzone3-wrapper {
-  h2 {
-    font-size: 50px;
+.learn-more-about-doctors {
+  a {
+    background-color: #095480;
+    padding: 8px 60px;
+    float: left;
+    color: #fff;
   }
 }
 
@@ -197,6 +222,50 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+
+.zone-footer {
+  .region-footer-second {
+    .block { 
+      float: right;
+        ul {
+          li {
+            padding: 0 0 0 25px;
+        }
+      }
+    }
+  }
+  p {
+    color: #fff;
+  }
+}
+
+
+//About Us
+
+.zone-content {
+  .region-sidebar-second {
+    .block-testimonial-block-1 {
+      .views-field-field-client-picture {
+        text-align: center;
+        position: relative;
+        top: 59px;
+          img {
+            border-radius: 62px;
+            border: 5px solid #C9C1C1;
+          }
+        }
+        .views-field-body, .views-field-field-name, .views-field-field-client-title {
+          background: #C9C1C1;
+          padding: 10px;
+      }
+        h2 {
+          text-align: center;
+       }
+    }
+  }
+}
+
+
 
 //Should be moved in to the CPN of that particular node, images should be kept in files how it is now.
 .page-node-6 {
