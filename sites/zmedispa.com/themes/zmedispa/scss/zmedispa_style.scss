@@ -5,6 +5,10 @@
 /* Include Default Variables & Mixins */
 @import "_variables.scss";
 @import "_mixins.scss";
+@import "hover/scss/options";
+@import "hover/scss/mixins";
+@import "hover/scss/hacks";
+@import "hover/scss/effects/2d-transitions/float";
 /* End Variables & Mixins */
 
 h1, h2, h3, h4, h5, h6 {
@@ -68,6 +72,7 @@ body {
       padding: 8px 0;
 
       a {
+	@include float();
         background-color: #095480;
         padding: 8px;
         color: #fff;
