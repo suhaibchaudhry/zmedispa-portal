@@ -69,7 +69,7 @@ body {
       padding: 8px 0;
 
       a {
-	@include skew-forward();
+        @include skew-forward();
         background-color: #095480;
         padding: 8px;
         color: #fff; 
@@ -290,6 +290,44 @@ body {
     h2.content-subtitle {
       font-weight: bold;
       font-size: 20px;
+    }
+  }
+}
+
+#region-sidebar-second {
+  margin-bottom: 30px;
+
+  #block-views-testimonial-block-1 {
+    h2.block-title {
+      text-transform: lowercase;
+      font-size: 22px;
+      color: #015383;
+    }
+
+    .views-row {
+      .views-field-field-name {
+        padding-bottom: 0px;
+        color: #015383;
+        font-weight: bold;
+      }
+
+      .views-field-field-client-title {
+        padding-top: 0px;
+        font-style: italic;
+        color: #015383;
+      }
+
+      .views-field-body {
+        padding-top: 60px;
+
+        .field-content {
+          border-bottom: 3px solid #015383;
+
+          p {
+            color: #fff;
+          }
+        }
+      }
     }
   }
 }
