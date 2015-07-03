@@ -4,7 +4,7 @@
 @import "hover/scss/hacks";
 
 //Include dresired Hover Animations effects to be used as mixins.
-@import "hover/scss/effects/2d-transitions/skew-forward";
+@import "hover/scss/effects/border-transitions/overline-from-left";
 @import "hover/scss/effects/2d-transitions/float";
 
 @mixin clearfix {

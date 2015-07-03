@@ -69,7 +69,7 @@ body {
       padding: 8px 0;
 
       a {
-        @include skew-forward();
+	@include overline-from-left();
         background-color: #095480;
         padding: 8px;
         color: #fff; 
@@ -207,7 +207,7 @@ body {
 
 .learn-more-about-doctors {
   a {
-    @include skew-forward();
+    @include overline-from-left();
     background-color: #095480;
     padding: 8px 60px;
     float: left;
