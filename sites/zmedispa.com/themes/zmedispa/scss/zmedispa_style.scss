@@ -52,7 +52,6 @@ body {
   }
 
   .region {
-    @include float();
     position: relative;
     padding: 0 0 40px 0;
   }
