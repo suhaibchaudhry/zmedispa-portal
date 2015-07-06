@@ -102,6 +102,11 @@ body {
           a {
             border: none;
           }
+          a:hover, a:focus {
+            color: #fff;
+            background: #073A66;
+            border-radius: 3px;
+          }
         }
     }
   }
@@ -109,7 +114,7 @@ body {
 
 .zone-postscript-wrapper {
   background: #dcb65b;
-    .block-views-testimonial-block {
+    .block-front-page-testimonials-block {
       //margin: 20px 0 0 0;
       h2 {
         color: #005382;
@@ -229,15 +234,85 @@ body {
   .region-footer-second {
     .block { 
       float: right;
-        ul {
-          li {
-            padding: 0 0 0 25px;
-        }
-      }
+      margin: 0 0 15px 0;
+      font-size: 12px;
     }
   }
   p {
     color: #fff;
+  }
+}
+
+.section-footer {
+  .block-menu-footer-menu
+    ul.menu {
+      li {
+        padding: 0 0 0 25px;
+    }
+  }
+}
+
+.section-footer {
+  .block-menu-footer-menu
+    ul.menu {
+      padding: 0;
+  }
+}
+
+.zone-content {
+  #page-title {
+  font-size: 41px;
+  color: #fff;
+  text-shadow: 0 0 8px #616161;
+  }
+}
+
+//Services
+
+.block-views-services-block {
+  .views-row {
+      width: 373px;
+      float: left;
+      margin: 0 10px;
+      height: 349px;
+    .views-field-body {
+      position: relative;
+      bottom: 32px;
+      height: 34px;
+    }
+    .views-field-title {
+      background: rgba(40, 106, 146, 0.61);
+      position: relative;
+      bottom: 41px;
+      padding: 10px;
+      a {
+      color: #fff;
+      }
+    }
+  }
+}
+
+//Testimonials
+
+.view-id-testimonial_page_block {
+  .views-row {
+      text-align: center;
+      border-bottom: 1px solid #2698F2;
+      margin: 30px 0 30px 0;
+      float: left;
+    .field-name-field-name {
+      font-weight: bold;
+      color: #10557E;
+    }
+    .field-name-field-client-picture {
+      margin: 0 0 16px 0;
+      img {
+        border-radius: 50px;
+      }
+    }
+      h2 {
+        display: none;
+      }
   }
 }
 
@@ -247,6 +322,10 @@ body {
 .zone-content {
   .region-sidebar-second {
     .block-testimonial-block-1 {
+      .views-row {
+        position: relative;
+        top: -40px;
+      }
       .views-field-field-client-picture {
         text-align: center;
         position: relative;
@@ -262,12 +341,11 @@ body {
       }
         h2 {
           text-align: center;
+          padding-top: 10px;
        }
     }
   }
 }
-
-
 
 //Should be moved in to the CPN of that particular node, images should be kept in files how it is now.
 .page-node-6 {
@@ -284,6 +362,37 @@ body {
     background-position: center;
   }
 }
+
+.page-node-8 {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
+.page-testimonials {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
 
 #region-content {
   .field-name-body {
@@ -325,6 +434,8 @@ body {
 
           p {
             color: #fff;
+            font-size: 12px;
+            line-height: 1.5;
           }
         }
       }
