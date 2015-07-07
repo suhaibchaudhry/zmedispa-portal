@@ -426,7 +426,8 @@ body {
         .webform-contact-phone-wrapper, .webform-contact-address-wrapper, .webform-contact-fax-wrapper, .webform-contact-email-wrapper {
           float: left;
           width: 100%;
-          margin: 0 0 60px 0;
+          margin: 0 0 20px 0;
+          border-bottom: 2px dotted #10557E;
 
           .webform-contact-phone-title, .webform-contact-fax-title, .webform-contact-address-title, .webform-contact-email-title {
             font-size: 25px;
@@ -437,6 +438,7 @@ body {
             font-size: 19px;
             color: #10557E;
             font-style: italic;
+            margin: 0 0 15px 0;
           }
       }
     }
@@ -454,5 +456,65 @@ body {
     }
     }
     
+  }
+}
+
+//About Us
+
+.zone-content {
+  .region-sidebar-second {
+    .block-testimonial-block-1 {
+      .views-row {
+        position: relative;
+        top: -40px;
+      }
+      .views-field-field-client-picture {
+        text-align: center;
+        position: relative;
+        top: 59px;
+          img {
+            border-radius: 62px;
+            border: 5px solid #C9C1C1;
+          }
+        }
+        .views-field-body, .views-field-field-name, .views-field-field-client-title {
+          background: #C9C1C1;
+          padding: 10px;
+      }
+        h2 {
+          text-align: center;
+          padding-top: 10px;
+       }
+    }
+  }
+}
+
+//Services
+
+.block-views-services-block {
+  .views-row {
+    .views-field-field-service-image {
+      img {
+        width: 100%;
+      }
+    }
+      width: 100%;
+      float: left;
+      margin: 0;
+      height: auto;
+    .views-field-body {
+      position: relative;
+      bottom: 32px;
+      height: 34px;
+    }
+    .views-field-title {
+      background: rgba(40, 106, 146, 0.61);
+      position: relative;
+      bottom: 41px;
+      padding: 10px;
+      a {
+      color: #fff;
+      }
+    }
   }
 }
