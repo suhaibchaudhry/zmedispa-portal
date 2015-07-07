@@ -5,8 +5,9 @@
 /* Include Default Variables & Mixins */
 @import "_variables.scss";
 @import "_mixins.scss";
+@import "compass/css3";
 /* End Variables & Mixins */
-
+ 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
@@ -266,31 +267,6 @@ body {
   }
 }
 
-//Services
-
-.block-views-services-block {
-  .views-row {
-      width: 373px;
-      float: left;
-      margin: 0 10px;
-      height: 349px;
-    .views-field-body {
-      position: relative;
-      bottom: 32px;
-      height: 34px;
-    }
-    .views-field-title {
-      background: rgba(40, 106, 146, 0.61);
-      position: relative;
-      bottom: 41px;
-      padding: 10px;
-      a {
-      color: #fff;
-      }
-    }
-  }
-}
-
 //Testimonials
 
 .view-id-testimonial_page_block {
@@ -312,37 +288,6 @@ body {
       h2 {
         display: none;
       }
-  }
-}
-
-
-//About Us
-
-.zone-content {
-  .region-sidebar-second {
-    .block-testimonial-block-1 {
-      .views-row {
-        position: relative;
-        top: -40px;
-      }
-      .views-field-field-client-picture {
-        text-align: center;
-        position: relative;
-        top: 59px;
-          img {
-            border-radius: 62px;
-            border: 5px solid #C9C1C1;
-          }
-        }
-        .views-field-body, .views-field-field-name, .views-field-field-client-title {
-          background: #C9C1C1;
-          padding: 10px;
-      }
-        h2 {
-          text-align: center;
-          padding-top: 10px;
-       }
-    }
   }
 }
 
