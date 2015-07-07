@@ -71,6 +71,13 @@ css[zmedispa_style.css][description] = This file holds all the globally active c
 css[zmedispa_style.css][options][weight] = 11
 settings[alpha_css][zmedispa_style.css] = 'zmedispa_style.css'
 
+; SOCIAL MEDIA STYLESHEET
+
+css[social_media.css][name] = Social media button classes
+css[social_media.css][description] = This file holds all the social media button classes for links.
+css[social_media.css][options][weight] = 15
+settings[alpha_css][social_media.css] = 'social_media.css'
+
 ; OPTIONAL LIBRARIES
 
 libraries[zmedispa_custom][name] = ZMediSpa theme JS
