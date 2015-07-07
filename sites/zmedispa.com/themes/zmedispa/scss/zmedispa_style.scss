@@ -151,7 +151,7 @@ body {
 }
 
 .block-menu-menu-footer-menu {
-  float: right;
+  float: none;
     .menu {
       li {
         float: left;
@@ -233,7 +233,8 @@ body {
 .zone-footer {
   .region-footer-second {
     .block { 
-      float: right;
+      text-align: center;
+      float: none;
       margin: 0 0 15px 0;
       font-size: 12px;
     }
@@ -396,5 +397,58 @@ body {
         text-transform: lowercase;
       }
     }
+  }
+}
+
+#zone-midzone3-wrapper {
+  .webform-client-form {
+    .webform-component--we-look-forward-to-hearing-from-you {
+      text-align: center;
+      font-size: 28px;
+      margin: 0 0 10px 0;
+    }
+    .form-actions {
+      float: right;
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+    .webform-submit {
+      width: 100%;
+      padding: 15px;
+    }
+    .webform-component--contact-info {
+          text-align: center;
+          width: 100%;
+        .webform-contact-phone-wrapper, .webform-contact-address-wrapper, .webform-contact-fax-wrapper, .webform-contact-email-wrapper {
+          float: left;
+          width: 100%;
+          margin: 0 0 60px 0;
+
+          .webform-contact-phone-title, .webform-contact-fax-title, .webform-contact-address-title, .webform-contact-email-title {
+            font-size: 25px;
+            font-weight: bold;
+            color: #10557E;
+          }
+          .webform-contact-phone, .webform-contact-fax, .webform-contact-address, .webform-contact-email {
+            font-size: 19px;
+            color: #10557E;
+            font-style: italic;
+          }
+      }
+    }
+    .webform-component--contact-fields {
+      margin-bottom: 0;
+      input[type="text"], input[type="email"], textarea {
+        background: #e1e1e1;
+        padding: 16px;
+        width: 100%;
+      }
+      label {
+        padding: 8px 15px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    }
+    
   }
 }
