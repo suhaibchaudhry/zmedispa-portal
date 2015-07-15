@@ -297,6 +297,23 @@ body {
 }
 
 //Should be moved in to the CPN of that particular node, images should be kept in files how it is now.
+.node-type-page {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
+
+
 .page-node-6 {
   .zone-content {
    .region-content {
@@ -517,4 +534,107 @@ body {
       }
     }
   }
+}
+
+//Menu
+
+.zone-branding { 
+  .region-menu {
+    margin: 10px;
+      .block-superfish {
+        select {
+          width: 100%;
+          padding: 15px;
+      }
+    }
+  }
+}
+
+.zone-branding {
+  .block-superfish {
+    margin: 40px 0 0 0;
+  }
+}
+
+#region-user-second {
+  background-color: #D9B259;
+    .block {
+      .content {
+        p {
+          font-size: 10px;
+        }
+      }
+    }
+}
+
+//Location Page
+
+.node-type-locations {
+  .field-name-field-employee-information {
+    padding: 30px;
+  }
+  .field-name-field-employee-picture {
+      float: left;
+      padding: 10px 21px;
+    img {
+        border-radius: 101px;
+        border: 10px solid #D9B359;
+        box-shadow: 0px 0px 22px #B6B4B4;
+    }
+  }
+}
+
+.node-type-locations { 
+  .zone-content {
+    .region-content {
+    position: relative;
+    bottom: 0;
+      #page-title {
+        font-size: 25px;
+        color: #000;
+        text-shadow: 0 0 8px #C2C2C2;
+        margin: 10px;
+      }
+      .group-right {
+        .field-type-office-hours, .field-name-field-locations-info {
+            padding: 0;
+            background: #DCB55A;
+            color: #fff;
+            margin: 10px 0;
+            border-radius: 3px;
+              .field-label {
+                font-weight: bold;
+                padding: 10px;
+                background: #282828;
+                border-radius: 3px 3px 0 0;
+                color: #fff;
+              }
+              .field-items {
+                  padding: 10px;
+                  font-weight: 500;
+              }
+        }
+      }
+  } 
+ }
+}
+
+.node-locations {
+  .group-left {
+    width: 100%;
+  }
+  .group-right {
+    width: 100%;
+  }
+}
+
+.block-views-clinic-slideshow-block {
+  z-index: 0;
+  position: relative;
+}
+
+//Contact Us
+
+.block-views-clinic-location-map-block {
+  margin: 15px 0;
 }

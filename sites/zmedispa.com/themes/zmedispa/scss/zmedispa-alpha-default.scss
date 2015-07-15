@@ -157,3 +157,64 @@
       }
     }
   }
+
+//Menu
+
+.zone-branding {
+  .block-superfish {
+    margin: 70px 0 0 0;
+  }
+}
+
+#region-user-second {
+  background-color: #D9B259;
+  width: auto;
+}
+
+//Locations
+
+.node-type-locations { 
+  .zone-content {
+    .region-content {
+      position: relative;
+      bottom: 70px;
+        #page-title {
+          font-size: 41px;
+        }
+      .group-right {
+        .field-type-office-hours, .field-name-field-locations {
+            padding: 0;
+            background: #DCB55A;
+            color: #fff;
+            margin: 10px 0;
+            border-radius: 3px;
+              .field-label {
+                font-weight: bold;
+                padding: 10px;
+                background: #282828;
+                border-radius: 3px 3px 0 0;
+                color: #fff;
+              }
+              .field-items {
+                  padding: 10px;
+                  font-weight: 500;
+              }
+        }
+      }
+  } 
+ }
+}
+
+.node-locations {
+  .group-left {
+    width: 75%;
+  }
+  .group-right {
+    width: 25%;
+  }  
+}
+
+.block-views-clinic-slideshow-block {
+  z-index: 0;
+  position: relative;
+}
