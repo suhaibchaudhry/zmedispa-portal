@@ -34,3 +34,11 @@ a.gplus-button {
 a.youtube-button {
 	@include social-media-button(youtube);
 }
+
+a.yelp-button {
+  @include social-media-button(yelp);
+}
+
+a.pintrest-button {
+  @include social-media-button(pintrest);
+}
