@@ -34,6 +34,8 @@ body {
 #zone-user-wrapper {
   background: #DCB55A;
   line-height: 34px;
+  height: 40px;
+  z-index: 500;
 
   .block-block-2 {
     float: right;
@@ -302,6 +304,7 @@ body {
       border-bottom: 1px solid #2698F2;
       margin: 30px 0 30px 0;
       float: left;
+      width: 100%;
     .field-name-field-name {
       font-weight: bold;
       color: #10557E;
@@ -319,6 +322,129 @@ body {
 }
 
 //Should be moved in to the CPN of that particular node, images should be kept in files how it is now.
+
+
+.page-node-42 {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/immigration-physicals-vaccinations.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
+.page-node-15 {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/cosmetic-procedures-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
+.page-node-14 {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/low-testosterone-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
+
+.page-node-13 {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/weight-mana-banner.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
+.page-node-12 {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/telemedicine-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
+.page-node-11 {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/wellness-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
+.page-node-10 {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/menopause-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
+.page-node-9 {
+  .zone-content {
+   .region-content {
+      position: relative;
+      bottom: 70px;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/family-practice-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+}
+
 .node-type-page {
   .zone-content {
    .region-content {
@@ -558,10 +684,12 @@ body {
       bottom: 32px;
       height: 47px;
     }
+    .views-field-field-teaser {
+      height: 36px;
+      margin: 10px 0 14px;
+    }
     .views-field-title {
-      background: rgba(40, 106, 146, 0.61);
-      position: relative;
-      bottom: 41px;
+      background: #000;
       padding: 10px;
       a {
       color: #fff;
