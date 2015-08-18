@@ -95,6 +95,18 @@ body {
     .region-header-first {
       width: 100%;
       margin: 0;
+
+      .region-header-first-inner {
+        position: relative;
+
+        #block-multiblock-1 {
+          position: absolute;
+          bottom: 0;
+          z-index: 1;
+          margin: 0 auto;
+          width: 100%;
+        }
+      }
     }
   }
 }
@@ -332,6 +344,13 @@ h1#page-title {
 
 //Should be moved in to the CPN of that particular node, images should be kept in files how it is now.
 
+.node-type-locations {
+  .zone-content {
+    .region-content {
+      bottom: 0 !important;
+    }
+  }
+}
 
 .page-node-42 {
   .zone-content {
@@ -816,7 +835,6 @@ h1#page-title {
     border-radius: 0;
       .field-item {
         background: transparent;
-        margin: 10px;
       }
     }
   .field-name-field-employee-picture {
@@ -892,6 +910,14 @@ h1#page-title {
 .block-views-clinic-slideshow-block {
   z-index: 0;
   position: relative;
+
+  .views-row {
+    a.active {
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+  }
 }
 
 //Contact Us
