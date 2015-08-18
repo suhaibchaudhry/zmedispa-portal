@@ -21,9 +21,7 @@ body {
   font-weight: 200;
 }
 
-.front #page-title {
-  display: none;
-}
+
 
 .html {
   background: #fff;
@@ -291,11 +289,18 @@ body {
   }
 }
 
-.zone-content {
-  #page-title {
-  font-size: 41px;
-  color: #fff;
-  text-shadow: 0 0 8px #616161;
+#zone-header2-wrapper {
+  position: relative;
+
+  .zone-header2 {
+    position: absolute;
+    bottom: 0px;
+    right: 180px;
+    #page-title {
+      font-size: 41px;
+      color: #fff;
+      text-shadow: 0 0 8px #616161;
+    }
   }
 }
 
@@ -331,7 +336,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -346,7 +350,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -361,7 +364,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -377,7 +379,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -392,7 +393,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -407,7 +407,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -422,7 +421,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -437,7 +435,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -452,7 +449,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -469,7 +465,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -484,7 +479,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
@@ -499,7 +493,6 @@ body {
   .zone-content {
    .region-content {
       position: relative;
-      bottom: 70px;
    }
   }  
   .zone-header2-wrapper {
