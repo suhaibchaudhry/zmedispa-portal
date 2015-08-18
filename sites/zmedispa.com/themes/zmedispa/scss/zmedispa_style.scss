@@ -290,18 +290,19 @@ body {
 }
 
 #zone-header2-wrapper {
-  position: relative;
-
   .zone-header2 {
-    position: absolute;
-    bottom: 0px;
-    right: 180px;
-    #page-title {
+    position: relative;
+    .region {
+      position: absolute;
+      bottom: 0px;
+    }
+  }
+}
+
+h1#page-title {
       font-size: 41px;
       color: #fff;
       text-shadow: 0 0 8px #616161;
-    }
-  }
 }
 
 //Testimonials
@@ -340,9 +341,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/immigration-physicals-vaccinations.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -354,9 +358,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/cosmetic-procedures-slide.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -368,9 +375,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/low-testosterone-slide.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -383,9 +393,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/weight-mana-banner.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -397,9 +410,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/telemedicine-slide.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -411,9 +427,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/wellness-slide.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -425,9 +444,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/menopause-slide.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -439,9 +461,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/family-practice-slide.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -453,9 +478,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -469,9 +497,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -483,9 +514,12 @@ body {
   }  
   .zone-header2-wrapper {
     background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
-    height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
@@ -500,6 +534,10 @@ body {
     height: 300px;
     width: 100%;
     background-position: center;
+
+    .zone {
+      height: 300px;
+    }
   }
 }
 
