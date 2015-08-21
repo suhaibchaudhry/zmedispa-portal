@@ -21,7 +21,12 @@ body {
   font-weight: 200;
 }
 
-
+#zone-user {
+  #region-user-first {
+    height: 100%;
+    margin: 0 auto;
+  }
+}
 
 .html {
   background: #fff;
@@ -39,6 +44,8 @@ body {
   z-index: 500;
 
   .block-block-2 {
+    width: 100%;
+    text-align: center;
     float: right;
   }
   
@@ -312,7 +319,7 @@ body {
 }
 
 h1#page-title {
-      font-size: 41px;
+      font-size: 25px;
       color: #fff;
       text-shadow: 0 0 8px #616161;
 }
@@ -348,6 +355,7 @@ h1#page-title {
   .zone-content {
     .region-content {
       bottom: 0 !important;
+      margin-top: 20px;
     }
   }
 }
@@ -792,7 +800,9 @@ h1#page-title {
 }
 
 #region-user-second {
-  background-color: #D9B259;
+  background-color: #DCB55A;
+  width: 100%;
+  
     .block {
       .content {
         p {
@@ -948,7 +958,8 @@ h1#page-title {
         }
 
         .views-field-field-doctor-picture {
-          width: 19%;
+          width: 100%;
+          text-align: center;
           float: left;
 
           img {
@@ -960,7 +971,7 @@ h1#page-title {
         }
 
         .views-field-field-doctor-information {
-          width: 78%;
+          width: auto;
           float: right;
           margin: 10px;
           font-size: 12px;

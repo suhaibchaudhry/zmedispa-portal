@@ -22,6 +22,7 @@
 
 #region-user-second {
   background-color: #D9B259;
+  width: initial;
     .block {
       .content {
         p {
@@ -381,4 +382,32 @@
 .block-views-clinic-slideshow-block {
   z-index: 0;
   position: relative;
+}
+
+.zone-content {
+  #block-views-doctors-list-block {
+    .view-doctors-list {
+      .views-row {
+        .views-field-field-doctor-picture {
+          width: 16%;
+          text-align: initial;
+        }
+
+        .views-field-field-doctor-information {
+          width: 78%;
+        }
+      }
+    }
+  }
+}
+
+h1#page-title {
+  font-size: 41px;
+}
+
+#zone-user-wrapper {
+  .block-block-2 {
+    width: auto;
+    text-align: initial;
+  }
 }
