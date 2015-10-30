@@ -514,7 +514,22 @@ h1#page-title {
   }
 }
 
+.node-type-services {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    width: 100%;
+    background-position: center;
 
+    .zone {
+      height: 300px;
+    }
+  }
+}
 
 .page-node-6 {
   .zone-content {
