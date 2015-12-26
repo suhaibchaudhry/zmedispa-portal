@@ -331,3 +331,34 @@ h1#page-title {
     text-align: initial;
   }
 }
+
+#zone-midzone2-wrapper {
+	height: 150px;
+        .app-container {
+		padding: 10px;
+                .android-app, .ios-app, .windows-app, .kindle-app {
+                        height: 54px;
+                        width: 150px;
+                        margin: 5px 84px;
+                }
+                .android-app {
+                        background: url("../images/googel-play-badge.png");
+                }
+                .ios-app {
+                        background: url("../images/ios.svg");
+                }
+                .windows-app {
+                        background: url("../images/English-get-from.png");
+                }
+                .kindle-app {
+                        background: url("../images/kindle-fire.png");
+                }
+        }
+}
+
+.context-blog {
+	aside#region-sidebar-second {
+		width: 220px;
+		float: right;
+	}
+}

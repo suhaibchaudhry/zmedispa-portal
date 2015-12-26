@@ -31,3 +31,37 @@ h1#page-title {
   }
 }
 
+#zone-midzone2-wrapper {
+        height: 150px;
+        background-color: #434343;
+        .app-container {
+                padding: 50px;
+                .android-app, .ios-app, .windows-app, .kindle-app {
+                        height: 60px;
+                        background-repeat: no-repeat !important;
+                        background-size: contain !important;
+                        float: left !important;
+                        width: 200px;
+                        margin: 0 35px;
+                }
+                .android-app {
+                        background: url("../images/googel-play-badge.png");
+                }
+                .ios-app {
+                        background: url("../images/ios.svg");
+                }
+                .windows-app {
+                        background: url("../images/English-get-from.png");
+                }
+                .kindle-app {
+                        background: url("../images/kindle-fire.png");
+                }
+        }
+}
+
+.context-blog {
+	aside#region-sidebar-second {
+		width: 290px;
+		float: right;
+	}
+}
