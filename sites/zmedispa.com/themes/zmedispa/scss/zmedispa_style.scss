@@ -1214,3 +1214,19 @@ h1#page-title {
 		}
 	}
 }
+
+.context-careers {
+	.region-sidebar-second {
+		.webform-component--career-submission {
+			.form-item-jump {
+				select {
+					width: 100%;
+				}
+			}
+			input.form-submit {
+				display: none !important;
+			}
+		}
+	}
+}
+
