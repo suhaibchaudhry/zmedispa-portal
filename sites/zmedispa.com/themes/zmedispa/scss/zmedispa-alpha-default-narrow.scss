@@ -333,13 +333,14 @@ h1#page-title {
 }
 
 #zone-midzone2-wrapper {
-	height: 150px;
+	height: 350px;
         .app-container {
 		padding: 10px;
                 .android-app, .ios-app, .windows-app, .kindle-app {
-                        height: 54px;
-                        width: 150px;
-                        margin: 5px 84px;
+                        height: 105px;
+                        width: 240px;
+                        margin: 5px 240px;
+			clear: both;
                 }
                 .android-app {
                         background: url("../images/googel-play-badge.png");
