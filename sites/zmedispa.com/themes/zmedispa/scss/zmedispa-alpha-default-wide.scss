@@ -43,6 +43,7 @@ h1#page-title {
                         float: left !important;
                         width: 290px;
                         margin: 0 35px;
+			clear: inherit;
                 }
                 .android-app {
                         background: url("../images/googel-play-badge.png");
