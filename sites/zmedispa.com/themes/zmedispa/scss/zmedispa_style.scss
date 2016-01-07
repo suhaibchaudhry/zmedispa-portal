@@ -616,6 +616,11 @@ h1#page-title {
   .zone-content {
    .region-content {
       position: relative;
+	article {
+		iframe {
+			width: 100%;
+		}
+	}
    }
   }  
   .zone-header2-wrapper {
@@ -667,6 +672,9 @@ h1#page-title {
   .zone-content {
    .region-content {
       position: relative;
+	.field-type-weight {
+		display: none;
+	}
    }
   }  
   .zone-header2-wrapper {
