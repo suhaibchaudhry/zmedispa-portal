@@ -1224,15 +1224,73 @@ h1#page-title {
 }
 
 .context-careers {
+	.region-content {
+		.view-career-information {
+			margin-top: 26px;
+
+			.views-row {
+			        background-color: #eaeaea;
+			        margin-bottom: 50px;
+
+			        .views-field-field-career-title {
+			                background: #063c68;
+			                color: #fff;
+			                padding: 5px 10px;
+			                font-size: 20px;
+			                border-radius: 5px 5px 0 0;
+			        }
+
+			        .views-field-field-career-description, .views-field-field-career-requirements {
+			                padding: 20px;
+			        }
+
+			        .views-field-field-career-requirements {
+			                span.views-label {
+			                        font-weight: bold;
+			                        font-size: 15px;
+			                }
+			        }
+			}
+		}
+	}
+
 	.region-sidebar-second {
-		.webform-component--career-submission {
-			.form-item-jump {
-				select {
-					width: 100%;
+		section#block-webform-client-block-84 {
+			background-color: #eaeaea;
+			margin-top: 46px;
+
+			h2.block-title {
+				color: #fff;
+				background-color: #063c68;
+				padding: 5px 10px;
+				font-size: 20px;
+				border-radius: 5px 5px 0 0;
+			}
+
+			.webform-component--career-submission {
+				.form-item-jump {
+					select {
+						width: 100%;
+					}
+				}
+		
+				input.form-submit {
+					display: none !important;
 				}
 			}
-			input.form-submit {
-				display: none !important;
+
+			form#webform-client-form-84 {
+				padding: 10px;
+				
+				.form-actions {
+					input.form-submit {
+						width: 100%;
+						background: #118ac1;
+						color: #fff;
+						height: 50px;
+						font-size: 20px;
+					}
+				}
 			}
 		}
 	}
