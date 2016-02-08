@@ -47,6 +47,8 @@ regions[footer_third] = Footer Third
 regions[footer2_first] = Footer2 First
 regions[footer2_second] = Footer2 Second
 
+regions[appointments_first] = Appointments First
+
 ; ZONES
 
 zones[user] = User
@@ -62,7 +64,7 @@ zones[midzone2] = Middle Second
 zones[midzone3] = Middle Third
 zones[footer] = Footer first
 zones[footer2] = Footer second
-
+zones[appointments] = Appointments
 
 ; OPTIONAL STYLESHEETS
 
