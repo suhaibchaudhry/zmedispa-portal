@@ -924,7 +924,35 @@ h1#page-title {
 #region-user-second {
   background-color: #DCB55A;
   width: 100%;
-  
+  #block-superfish-2 {
+    width: 300px;
+    ul#superfish-2 {
+	li.firstandlast {
+		background: #dcb55a;
+		span {
+			color: #fff;
+			font-size: 16px;
+			font-weight: bold;
+			margin: 5px;
+			text-shadow: 1px 1px 1px #5d5d5d;
+		}
+	}
+
+      line-height: 40px;
+      background: #dcb55a;
+	ul {
+		top: 40px;
+	}
+      li {
+        width: 100%;
+        a {
+          padding: 10px 0;
+          line-height: 1;
+        }
+      }
+    }
+  }
+
     .block {
       .content {
         p {
