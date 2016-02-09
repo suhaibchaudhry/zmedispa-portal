@@ -652,6 +652,42 @@ h1#page-title {
   }
 }
 
+.node-type-iv-infusion-therapy-services {
+        .zone-content {
+                .region-content {
+                        position: relative;
+                }
+        }
+
+        .zone-header2-wrapper {
+                background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+                width: 100%;
+                background-position: center;
+
+                .zone {
+                        height: 300px;
+                }
+        }
+}
+
+.node-type-prp-services {
+	.zone-content {
+		.region-content {
+			position: relative;
+		}
+	}
+
+	.zone-header2-wrapper {
+		background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+		width: 100%;
+		background-position: center;
+	
+		.zone {
+			height: 300px;
+		}
+	}
+}
+
 .page-node-8 {
   .zone-content {
    .region-content {
@@ -838,6 +874,91 @@ h1#page-title {
   }
 }
 
+//prp services
+
+.block-views-prp-services-block {
+  .views-row {
+	width: 373px;
+	float: left;
+	margin: 0 10px;
+	height: 380px;
+    .views-field-view-node {
+      margin: 10px 0;
+      text-align: center;
+      a {
+        background: #10557E;
+        padding: 10px;
+        border-radius: 2px;
+        color: #fff;
+        display: block;
+      }
+    }
+    .views-field-field-prp-image {
+      img {
+        width: 100%;
+      }
+    }
+    .views-field-body {
+      position: relative;
+      bottom: 32px;
+      height: 47px;
+    }
+    .views-field-field-prp-teaser {
+      height: 36px;
+      margin: 10px 0 14px;
+    }
+    .views-field-title {
+      background: #000;
+      padding: 10px;
+      a {
+      color: #fff;
+      }
+    }
+  }
+}
+
+//iv therapy services
+
+.view-iv-infusion-therapy-services {
+  .views-row {
+        width: 373px;
+        float: left;
+        margin: 0 10px;
+        height: 380px;
+    .views-field-view-node {
+      margin: 10px 0;
+      text-align: center;
+      a {
+        background: #10557E;
+        padding: 10px;
+        border-radius: 2px;
+        color: #fff;
+        display: block;
+      }
+    }
+    .views-field-field-iv-therapy-image {
+      img {
+        width: 100%;
+      }
+    }
+    .views-field-body {
+      position: relative;
+      bottom: 32px;
+      height: 47px;
+    }
+    .views-field-field-iv-teaser {
+      height: 36px;
+      margin: 10px 0 14px;
+    }
+    .views-field-title {
+      background: #000;
+      padding: 10px;
+      a {
+      color: #fff;
+      }
+    }
+  }
+}
 //Services
 
 .block-views-services-block {
@@ -1325,3 +1446,160 @@ h1#page-title {
 	}
 }
 
+//contact us sidebar
+#block-block-12 {
+	background: #dab359;
+	text-align: center;
+	color: #fff;
+	padding: 40px 0;
+
+	.sidebar-more-info {
+		font-size: 30px;
+		text-transform: capitalize;
+	}
+
+	a.sidebar-info-link {
+		padding: 5px 30px;
+		font-size: 30px;
+		color: #fff;
+		background: #095480;
+		border-radius: 6px;
+		text-transform: capitalize;
+
+		&:hover {
+			color: #000;
+		}
+	}
+}
+
+.node-type-iv-infusion-therapy-services, .node-type-prp-services, .node-type-services {
+	.zone-content {
+		margin-top: 50px;
+	}
+}
+
+//appointments sidebar
+#block-multiblock-3 {
+	background: #095480;
+	color: #fff;
+
+	h2.block-title {
+		color: #fff;
+		text-align: center;
+		font-size: 40px;
+		padding-top: 30px;
+	}
+
+	form.webform-client-form-89 {
+		padding: 30px;
+	
+		.webform-component {
+			color: #000;
+
+			label {
+				padding: 0 11px;
+			}
+		
+			input {
+				padding: 0 10px;
+			}
+
+			&.webform-component--date, &.webform-component--time {
+				label {
+					position: relative;
+					color: #fff;
+					padding: 0;
+				}
+			}
+
+			&.webform-component--date {
+				.webform-datepicker {
+					input {
+						padding: 5px 0;
+					}
+				}
+			}
+		}
+		
+		.form-actions {
+			input {
+				width: 100%;
+				padding: 15px;
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+//appointments block
+#zone-appointments-wrapper {
+	background: #095480;
+	color: #fff;
+	
+	.region-appointments-first {
+		section#block-webform-client-block-89 {
+			h2.block-title {
+				color: #fff;
+				text-align: center;
+				font-size: 50px;
+			}
+		}
+
+		form#webform-client-form-89 {
+			color: #000;
+	
+			.webform-component {
+				float: left;
+				width: 50%;
+		
+				&.webform-component--date {
+					width: 20%;
+
+					input {
+						padding: 5px;
+					}
+				}
+
+				&.webform-component--date, &.webform-component--time {
+					label {
+						position: relative;
+						color: #fff;
+						padding: 0;
+					}
+				}
+		
+				&.webform-component--message {
+					float: initial;
+					width: initial;
+					clear: both;
+
+					textarea {
+						padding: 10px 17px;
+					}
+				}
+
+				label {
+					padding: 8px 17px;
+				}
+		
+				input {
+					padding: 16px;
+				}
+			}
+
+			.form-actions {
+				input {
+					width: 100%;
+					padding: 15px;
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}
+
+.context-schedule-appointment {
+	#zone-content {
+		display: none;
+	}
+}
