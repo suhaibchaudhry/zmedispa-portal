@@ -1,0 +1,5 @@
+name = Search API Geo Search
+description = Provides two geo search blocks.
+core = 7.x
+package = Stafford Housing Custom
+author = "Asad Hasan"

@@ -1,0 +1,205 @@
+<?php
+function search_api_geo_search_block_info() {
+  $blocks = array();
+  $blocks['geosearch_first_block'] = array(
+    'info' => t('Search API Geo Search: First Block'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+
+  $blocks['geosearch_second_block'] = array(
+    'info' => t('Search API Geo Search: Second Block'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+  return $blocks;
+}
+
+function search_api_geo_search_block_view($delta) {
+  $block = array();
+
+  switch ($delta) {
+    case 'geosearch_first_block':
+    case 'geosearch_second_block':
+      $block = array(
+      	'subject' => 'Search API Geo Search',
+      	'content' => drupal_get_form('search_api_geo_search_form')
+      );
+      break;
+  }
+
+  return $block;
+}
+
+function search_api_geo_extract_city($response) {
+	$city = '';
+	foreach($response->results[0]->address_components as $component) {
+		foreach($component->types as $type) {
+			if($type == 'locality') {
+				$city = $component->long_name;
+			}
+		}
+	}
+
+	return $city;
+}
+
+function search_api_geo_search_form_submit($form, &$form_state) {
+	$values = $form_state['values'];
+	$zip_only = is_numeric($values['city_zip']);
+	if($zip_only) {
+		$address = $values['city_zip'];
+	} else {
+		$address = $values['city_zip'].', '.$values['states'];
+	}
+
+	$json = file_get_contents('https://maps.googleapis.com/maps/api/geocode/json?address='.urlencode($address));
+	$response = json_decode($json);
+	$location = $response->results[0]->geometry->location;
+
+	$options = array('query' => array(
+	    'city_zip' => $values['city_zip'],
+	    'distance' => $values['distance']
+	    )
+	);
+
+	if(!$zip_only) {
+		$options['query']['states'] = $values['states'];
+	}
+
+	if($location) {
+		$options['query']['field_geolocation_latlon'] = $location->lat.','.$location->lng;
+		$options['query']['field_geolocation_latlon_op'] = $values['distance'];
+	}
+
+	$base_path = 'search-view';
+/*
+	$city = search_api_geo_extract_city($response);
+	if($city) {
+		$city_terms = taxonomy_get_term_by_name($city, 'featured_cities');
+		if(count($city_terms) > 0) {
+			$city_term = array_pop($city_terms);
+			if($city_term->tid) {
+				$base_path .= '/field_featured_in/'.$city.'-'.$city_term->tid;
+			}
+		}
+	}
+*/
+	drupal_goto($base_path, $options);
+}
+
+function search_api_geo_search_form() {
+	$form = array();
+
+	if(array_key_exists('city_zip', $_GET)) {
+		$city_zip = $_GET['city_zip'];
+	} else {
+		$city_zip = '';
+	}
+
+	if(array_key_exists('distance', $_GET)) {
+		$distance = $_GET['distance'];
+	} else {
+		$distance = '';
+	}
+
+	if(array_key_exists('states', $_GET)) {
+		$states = $_GET['states'];
+	} else {
+		$states = 'TX';
+	}
+
+	$form['city_zip'] = array(
+		'#type' => 'textfield',
+		'#weight' => 10,
+		'#title' => 'City or Zip Code',
+		'#default_value' => $city_zip
+	);
+
+	$form['distance'] = array(
+		'#type' => 'select',
+		'#weight' => 15,
+		'#options' => array(
+			'16.09' => '10 miles',
+			'40.23' => '25 miles',
+			'80.46' => '50 miles',
+			'120.70' => '75 miles',
+			'160.93' => '100 miles'
+		),
+		'#default_value' => $distance
+	);
+
+	$form['states'] = array(
+		'#options' => array(
+			'AL' => 'Alabama',
+			'AK' => 'Alaska',
+			'AZ' => 'Arizona',
+			'AR' => 'Arkansas',
+			'CA' => 'California',
+			'CO' => 'Colorado',
+			'CT' => 'Connecticut',
+			'DE' => 'Delaware',
+			'DC' => 'District Of Columbia',
+			'FL' => 'Florida',
+			'GA' => 'Georgia',
+			'HI' => 'Hawaii',
+			'ID' => 'Idaho',
+			'IL' => 'Illinois',
+			'IN' => 'Indiana',
+			'IA' => 'Iowa',
+			'KS' => 'Kansas',
+			'KY' => 'Kentucky',
+			'LA' => 'Louisiana',
+			'ME' => 'Maine',
+			'MD' => 'Maryland',
+			'MA' => 'Massachusetts',
+			'MI' => 'Michigan',
+			'MN' => 'Minnesota',
+			'MS' => 'Mississippi',
+			'MO' => 'Missouri',
+			'MT' => 'Montana',
+			'NE' => 'Nebraska',
+			'NV' => 'Nevada',
+			'NH' => 'New Hampshire',
+			'NJ' => 'New Jersey',
+			'NM' => 'New Mexico',
+			'NY' => 'New York',
+			'NC' => 'North Carolina',
+			'ND' => 'North Dakota',
+			'OH' => 'Ohio',
+			'OK' => 'Oklahoma',
+			'OR' => 'Oregon',
+			'PA' => 'Pennsylvania',
+			'RI' => 'Rhode Island',
+			'SC' => 'South Carolina',
+			'SD' => 'South Dakota',
+			'TN' => 'Tennessee',
+			'TX' => 'Texas',
+			'UT' => 'Utah',
+			'VT' => 'Vermont',
+			'VA' => 'Virginia',
+			'WA' => 'Washington',
+			'WV' => 'West Virginia',
+			'WI' => 'Wisconsin',
+			'WY' => 'Wyoming'
+		),
+		'#title' => 'State',
+		'#type' => 'select',
+		'#weight' => 5,
+		'#default_value' => $states
+	);
+
+	$form['submit'] = array(
+		'#type' => 'submit',
+		'#value' => t('Search'),
+		'#weight' => 20
+	);
+
+	if(isset($_GET['distance'])) {
+		$form['clear_link'] = array(
+			'#type' => 'markup',
+			'#markup' => '<a class="clear-button" style="color: #fff; float: right; margin: 10px 0 0;" href="'.base_path() . current_path().'">[clear]</a>',
+			'#weight' => 30
+		);
+	}
+
+	return $form;
+}
