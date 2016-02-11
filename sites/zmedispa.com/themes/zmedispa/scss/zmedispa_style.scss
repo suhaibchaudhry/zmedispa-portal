@@ -1604,6 +1604,117 @@ h1#page-title {
 	}
 }
 
+//ul#superfish-2 {
+//	li {
+//		ul {
+//			display: none;
+//		}
+//	
+//		&:hover {
+//			display: block;
+//		}
+//	}
+//
+//	&:hover {
+//		display: block;
+//	}
+//}
+
+ul#superfish-2 {
+	ul {
+		right: initial !important;
+
+		li {
+			margin: 0;
+			padding: 0 10px;
+	
+			a {
+				border: none;
+				border-top: 1px solid #e1e1e1;
+				border-bottom: 1px solid #e1e1e1;
+				font-size: 16px !important;
+			
+				span {
+					display: block;
+					color: #000 !important;
+					text-shadow: none !important;
+					font-weight: normal !important;
+					margin: 5px 0 0 0 !important;
+					font-size: 14px !important;
+				}
+			}
+		}
+	}
+}
+
+.page-node-97 {
+	article {
+		.field-item {
+			strong u img {
+				width: 50%;
+			}
+		}
+	}
+}
+
+//search api
+.block-search-api-geo-search {
+	background: #dcb55a;
+	text-align: center;
+
+	h2.block-title {
+		font-weight: bold;
+		padding: 20px 20px 0 20px;
+		font-size: 30px;
+		color: #063c68;
+	}
+
+	form#search-api-geo-search-form {
+		background: #dcb55a;
+		padding: 20px;
+		color: #fff;
+	
+		.form-item-states {
+			label {
+				display: none;
+				position: relative;
+				text-align: center;
+				font-size: 20px;
+			}
+
+			select {
+				width: 100%;
+				padding: 10px;
+			}
+		}
+
+		.form-item-city-zip {
+			color: #000;
+
+			label {
+				padding: 7px 17px !important;
+			}
+
+			input {
+				padding: 15px;
+			}
+		}
+
+		.form-item-distance {
+			select {
+				width: 100%;
+				padding: 10px;
+			}
+		}
+
+		input.form-submit {
+			width: 100%;
+			padding: 10px;
+		}
+	}
+}
+
+
 @media (min-width: 320px) and (max-width: 359px) {
 #zone-user-wrapper {
 	#block-block-1 {
