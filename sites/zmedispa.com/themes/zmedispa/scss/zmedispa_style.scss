@@ -441,6 +441,15 @@ h1#page-title {
   }
 }
 
+.context-article {
+	.field-name-field-tags {
+		.field-item {
+			float: left;
+			padding-right: 10px;
+		}
+	}
+}
+
 .context-blog {
 	.region-content {
 		.view-id-blog {
@@ -468,6 +477,13 @@ h1#page-title {
 							border: 0;
 							background: #118ac1;
 							color: #fff !important;
+						}
+						li.comment-add {
+							padding: 0 5px;
+							a {
+								margin: 4px 0;
+								padding: 4px 8px;
+							}
 						}
 					}
 				}
@@ -2096,4 +2112,19 @@ ul#superfish-2 {
 ul#superfish-2 ul {
 	left: 0 !important;
 }
+}
+
+#comments {
+	h2.comment-form {
+		background: #fff;
+		border-bottom: 1px solid #656565;
+	}
+
+	form.comment-form {
+		background: #fff;
+
+		.form-actions {
+			float: right;
+		}
+	}
 }
