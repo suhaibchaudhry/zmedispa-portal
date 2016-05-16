@@ -15,6 +15,7 @@ regions[content] = Content
 
 regions[user_first] = User Bar First
 regions[user_second] = User Bar Second
+regions[user_third] = User Bar Third
 
 regions[branding] = Branding
 regions[menu] = Menu
