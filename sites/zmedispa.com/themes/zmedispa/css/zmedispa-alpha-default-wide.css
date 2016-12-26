@@ -1,0 +1,42 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+.zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-picture {
+  width: 19%;
+  text-align: initial; }
+.zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-information {
+  width: 78%; }
+
+h1#page-title {
+  font-size: 41px; }
+
+#region-user-second {
+  width: initial; }
+
+#zone-user-wrapper .block-block-2 {
+  width: auto;
+  text-align: initial; }
+
+#zone-midzone2-wrapper {
+  height: 150px;
+  background-color: #434343; }
+  #zone-midzone2-wrapper .app-container {
+    padding: 50px; }
+    #zone-midzone2-wrapper .app-container .android-app, #zone-midzone2-wrapper .app-container .ios-app, #zone-midzone2-wrapper .app-container .windows-app, #zone-midzone2-wrapper .app-container .kindle-app {
+      height: 70px;
+      background-repeat: no-repeat !important;
+      background-size: contain !important;
+      float: left !important;
+      width: 290px;
+      margin: 0 35px;
+      clear: inherit; }
+    #zone-midzone2-wrapper .app-container .android-app {
+      background: url("../images/googel-play-badge.png"); }
+    #zone-midzone2-wrapper .app-container .ios-app {
+      background: url("../images/ios.svg"); }
+    #zone-midzone2-wrapper .app-container .windows-app {
+      background: url("../images/English-get-from.png"); }
+    #zone-midzone2-wrapper .app-container .kindle-app {
+      background: url("../images/kindle-fire.png"); }
+
+.context-blog aside#region-sidebar-second {
+  width: 290px;
+  float: right; }

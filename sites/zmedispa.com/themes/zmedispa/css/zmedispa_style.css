@@ -1,0 +1,1319 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/* Override Omega */
+/* Include Default Variables & Mixins */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
+@import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+/* Overline From Left */
+/* End Variables & Mixins */
+a:link, a:visited {
+  color: #10557E; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500; }
+
+body {
+  font-family: helvetica, "Open Sans", sans-serif;
+  font-weight: 200; }
+
+#zone-user #region-user-first {
+  height: 100%;
+  margin: 0 auto; }
+
+.html {
+  background: #fff; }
+
+#zone-postscript {
+  margin-top: 0; }
+
+#zone-user-wrapper {
+  background: #DCB55A;
+  line-height: 34px;
+  height: 40px;
+  z-index: 500; }
+  #zone-user-wrapper .block-block-2 {
+    width: 100%;
+    text-align: center;
+    float: right; }
+  #zone-user-wrapper .block-block-1 p {
+    margin-bottom: 0; }
+  #zone-user-wrapper p {
+    color: #fff; }
+
+#zone-preface-wrapper p, #zone-preface-wrapper h2.block-title {
+  text-align: center;
+  color: #015383; }
+#zone-preface-wrapper h2.block-title {
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline; }
+#zone-preface-wrapper .region {
+  position: relative;
+  padding: 0 0 40px 0; }
+#zone-preface-wrapper .block {
+  position: static; }
+#zone-preface-wrapper div.read-more-button {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 8px 0; }
+  #zone-preface-wrapper div.read-more-button a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+    background-color: #095480;
+    padding: 8px;
+    color: #fff; }
+    #zone-preface-wrapper div.read-more-button a:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      right: 100%;
+      top: 0;
+      background: #2098D1;
+      height: 4px;
+      -webkit-transition-property: right;
+      transition-property: right;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out; }
+    #zone-preface-wrapper div.read-more-button a:hover:before, #zone-preface-wrapper div.read-more-button a:focus:before, #zone-preface-wrapper div.read-more-button a:active:before {
+      right: 0; }
+
+.zone-wrapper .zone-header {
+  width: 100%; }
+  .zone-wrapper .zone-header .region-header-first {
+    width: 100%;
+    margin: 0; }
+    .zone-wrapper .zone-header .region-header-first .region-header-first-inner {
+      position: relative; }
+      .zone-wrapper .zone-header .region-header-first .region-header-first-inner #block-multiblock-1 {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        margin: 0 auto;
+        width: 100%; }
+
+/*Main Menu*/
+.zone-branding .block-superfish {
+  margin: 80px 0 0 0; }
+  .zone-branding .block-superfish .menu {
+    float: right; }
+    .zone-branding .block-superfish .menu li {
+      background: transparent; }
+      .zone-branding .block-superfish .menu li a {
+        border: none; }
+      .zone-branding .block-superfish .menu li a:hover, .zone-branding .block-superfish .menu li a:focus {
+        color: #fff;
+        background: #073A66;
+        border-radius: 3px; }
+
+#block-views-accepted-insurance-block h2.block-title {
+  color: #015383;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 0 10px 15px; }
+
+.view-accepted-insurance {
+  margin-bottom: 30px; }
+  .view-accepted-insurance .view-content {
+    display: inline-flex; }
+    .view-accepted-insurance .view-content .views-row {
+      float: left;
+      margin: 0 15px; }
+
+.zone-postscript-wrapper {
+  background: #dcb65b; }
+  .zone-postscript-wrapper .block-front-page-testimonials-block h2 {
+    color: #005382;
+    font-size: 50px; }
+  .zone-postscript-wrapper .block-front-page-testimonials-block .views-row {
+    width: 50%;
+    float: left; }
+    .zone-postscript-wrapper .block-front-page-testimonials-block .views-row .views-field-field-name {
+      font-size: 18px;
+      color: #005382;
+      font-weight: 400; }
+    .zone-postscript-wrapper .block-front-page-testimonials-block .views-row .views-field-field-client-title {
+      font-style: italic;
+      font-size: 18px;
+      color: #000000;
+      text-transform: lowercase; }
+    .zone-postscript-wrapper .block-front-page-testimonials-block .views-row .views-field-body {
+      float: left;
+      padding: 15px;
+      color: #fff;
+      background: #005382;
+      border-radius: 4px;
+      margin: 10px 20px 10px 0; }
+
+.region-footer-first .region-footer-first-inner {
+  text-align: center; }
+  .region-footer-first .region-footer-first-inner .block-block-6 {
+    display: inline-block; }
+
+.region-footer-second-inner {
+  text-align: center; }
+  .region-footer-second-inner .block-menu-menu-footer-menu {
+    display: inline-block; }
+
+.zone-footer-wrapper {
+  background: #000; }
+
+.block-menu-menu-footer-menu {
+  float: none; }
+  .block-menu-menu-footer-menu .menu li {
+    float: left; }
+    .block-menu-menu-footer-menu .menu li a {
+      color: #fff; }
+
+.franchise-icon {
+  background: url(/sites/zmedispa.com/files/franchise-icon.png); }
+
+.services-icon {
+  background: url(/sites/zmedispa.com/files/services-icon.png); }
+
+.aboutus-icon {
+  background: url(/sites/zmedispa.com/files/aboutus-icon.png); }
+
+.franchise-icon, .services-icon, .aboutus-icon {
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  height: 160px;
+  text-align: center;
+  background-position: center;
+  margin: 10px 0; }
+
+.zone-midzone3-wrapper {
+  background: #c9c1c1; }
+  .zone-midzone3-wrapper h2 {
+    font-size: 50px; }
+
+.front .zone-midzone-wrapper {
+  margin-top: 20px;
+  background: #ced6e1; }
+  .front .zone-midzone-wrapper .region {
+    padding-bottom: 20px; }
+  .front .zone-midzone-wrapper .block-block h2 {
+    color: #005382;
+    font-size: 50px; }
+
+.learn-more-about-doctors a {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+  background-color: #095480;
+  padding: 8px 60px;
+  float: left;
+  color: #fff; }
+  .learn-more-about-doctors a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    top: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; }
+  .learn-more-about-doctors a:hover:before, .learn-more-about-doctors a:focus:before, .learn-more-about-doctors a:active:before {
+    right: 0; }
+
+.zone-preface-wrapper .block h2, .zone-midzone3-wrapper .block h2 {
+  text-align: center;
+  color: #10557E;
+  margin: 0; }
+
+.zone-footer .region-footer-second .block {
+  text-align: center;
+  float: none;
+  margin: 0 0 15px 0;
+  font-size: 12px; }
+.zone-footer p {
+  color: #fff; }
+
+.section-footer .block-menu-footer-menu
+ul.menu li {
+  padding: 0 0 0 25px; }
+
+.section-footer .block-menu-footer-menu
+ul.menu {
+  padding: 0; }
+
+#zone-header2-wrapper .zone-header2 {
+  position: relative; }
+  #zone-header2-wrapper .zone-header2 .region {
+    position: absolute;
+    bottom: 0px; }
+
+h1#page-title {
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 0 0 8px #616161; }
+
+.view-id-testimonial_page_block .views-row {
+  text-align: center;
+  border-bottom: 1px solid #2698F2;
+  margin: 30px 0 30px 0;
+  float: left;
+  width: 100%; }
+  .view-id-testimonial_page_block .views-row .field-name-field-name {
+    font-weight: bold;
+    color: #10557E; }
+  .view-id-testimonial_page_block .views-row .field-name-field-client-picture {
+    margin: 0 0 16px 0; }
+    .view-id-testimonial_page_block .views-row .field-name-field-client-picture img {
+      border-radius: 50px;
+      width: 100px !important;
+      height: 100px !important; }
+  .view-id-testimonial_page_block .views-row h2 {
+    display: none; }
+
+.node-type-locations .zone-content .region-content {
+  bottom: 0 !important;
+  margin-top: 20px; }
+
+.page-node-42 .zone-content .region-content {
+  position: relative; }
+.page-node-42 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/immigration-physicals-vaccinations.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-42 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-15 .zone-content .region-content {
+  position: relative; }
+.page-node-15 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/cosmetic-procedures-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-15 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-14 .zone-content .region-content {
+  position: relative; }
+.page-node-14 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/low-testosterone-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-14 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-taxonomy-term-2 article {
+  border: 1px solid #999;
+  padding: 10px 30px;
+  margin: 20px 0; }
+  .page-taxonomy-term-2 article nav.node-links {
+    float: right !important; }
+
+.node-type-article .zone-content .region-content {
+  position: relative; }
+.node-type-article .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/weight-mana-banner.jpg);
+  width: 100%;
+  background-position: center; }
+  .node-type-article .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.context-article .field-name-field-tags .field-item {
+  float: left;
+  padding-right: 10px; }
+
+.context-blog .region-content .view-id-blog .views-row {
+  width: 100% !important;
+  border: 1px solid #999; }
+  .context-blog .region-content .view-id-blog .views-row article {
+    background: #eaeaea;
+    padding: 10px 30px; }
+    .context-blog .region-content .view-id-blog .views-row article h2.node-title {
+      font-size: 20px; }
+      .context-blog .region-content .view-id-blog .views-row article h2.node-title a {
+        color: #282828; }
+    .context-blog .region-content .view-id-blog .views-row article footer {
+      color: #454545 !important; }
+      .context-blog .region-content .view-id-blog .views-row article footer a {
+        color: #454545 !important; }
+    .context-blog .region-content .view-id-blog .views-row article nav.node-links {
+      float: right !important; }
+      .context-blog .region-content .view-id-blog .views-row article nav.node-links a {
+        border: 0;
+        background: #118ac1;
+        color: #fff !important; }
+      .context-blog .region-content .view-id-blog .views-row article nav.node-links li.comment-add {
+        padding: 0 5px; }
+        .context-blog .region-content .view-id-blog .views-row article nav.node-links li.comment-add a {
+          margin: 4px 0;
+          padding: 4px 8px; }
+  .context-blog .region-content .view-id-blog .views-row:last-child {
+    margin-bottom: 50px; }
+.context-blog aside#region-sidebar-second {
+  width: 100%;
+  margin-top: 15px; }
+  .context-blog aside#region-sidebar-second #block-views-blog-categories-block h2.block-title {
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    background: #063c68;
+    padding: 5px 10px; }
+  .context-blog aside#region-sidebar-second #block-views-blog-categories-block .view-blog-categories {
+    border: 1px solid #999;
+    background: #eaeaea;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 10px; }
+    .context-blog aside#region-sidebar-second #block-views-blog-categories-block .view-blog-categories .views-row {
+      padding-top: 10px; }
+      .context-blog aside#region-sidebar-second #block-views-blog-categories-block .view-blog-categories .views-row h2 {
+        text-transform: capitalize;
+        font-size: 16px; }
+        .context-blog aside#region-sidebar-second #block-views-blog-categories-block .view-blog-categories .views-row h2 a {
+          color: #000; }
+
+.page-node-13 .zone-content .region-content {
+  position: relative; }
+.page-node-13 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/weight-mana-banner.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-13 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-12 .zone-content .region-content {
+  position: relative; }
+.page-node-12 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/telemedicine-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-12 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-11 .zone-content .region-content {
+  position: relative; }
+.page-node-11 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/wellness-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-11 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-10 .zone-content .region-content {
+  position: relative; }
+.page-node-10 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/menopause-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-10 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-9 .zone-content .region-content {
+  position: relative; }
+.page-node-9 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/family-practice-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-9 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.node-type-page .zone-content .region-content {
+  position: relative; }
+.node-type-page .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .node-type-page .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.node-type-services .zone-content .region-content {
+  position: relative; }
+  .node-type-services .zone-content .region-content article iframe {
+    width: 100%; }
+.node-type-services .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .node-type-services .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-6 .zone-content .region-content {
+  position: relative; }
+.page-node-6 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-6 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.node-type-iv-infusion-therapy-services .zone-content .region-content {
+  position: relative; }
+.node-type-iv-infusion-therapy-services .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .node-type-iv-infusion-therapy-services .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.node-type-prp-services .zone-content .region-content {
+  position: relative; }
+.node-type-prp-services .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .node-type-prp-services .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-8 .zone-content .region-content {
+  position: relative; }
+.page-node-8 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-8 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-testimonials .zone-content .region-content {
+  position: relative; }
+  .page-testimonials .zone-content .region-content .field-type-weight {
+    display: none; }
+.page-testimonials .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  height: 300px;
+  width: 100%;
+  background-position: center; }
+  .page-testimonials .zone-header2-wrapper .zone {
+    height: 300px; }
+
+#region-content .field-name-body h2.content-subtitle {
+  font-weight: bold;
+  font-size: 20px; }
+
+#region-sidebar-second {
+  margin-bottom: 30px; }
+  #region-sidebar-second #block-views-testimonial-block-1 h2.block-title {
+    text-transform: lowercase;
+    font-size: 22px;
+    color: #015383; }
+  #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-field-name {
+    padding-bottom: 0px;
+    color: #015383;
+    font-weight: bold; }
+  #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-field-client-title {
+    padding-top: 0px;
+    font-style: italic;
+    color: #015383; }
+  #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-body {
+    padding-top: 60px; }
+    #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-body .field-content {
+      border-bottom: 3px solid #015383; }
+      #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-body .field-content p {
+        color: #fff;
+        font-size: 12px;
+        line-height: 1.5; }
+
+#region-midzone3-first #webform-client-form-7 .webform-component--sub-title p {
+  text-align: center;
+  font-size: 22px;
+  text-transform: lowercase; }
+
+#zone-midzone3-wrapper .webform-client-form .webform-component--we-look-forward-to-hearing-from-you {
+  text-align: center;
+  font-size: 28px;
+  margin: 0 0 10px 0; }
+#zone-midzone3-wrapper .webform-client-form .form-actions {
+  float: right;
+  width: 100%;
+  margin: 0 0 10px 0; }
+#zone-midzone3-wrapper .webform-client-form .webform-submit {
+  width: 100%;
+  padding: 15px; }
+#zone-midzone3-wrapper .webform-client-form .webform-component--contact-info {
+  text-align: center;
+  width: 100%; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper {
+    float: left;
+    width: 100%;
+    margin: 0 0 20px 0;
+    border-bottom: 2px dotted #10557E; }
+    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email-title {
+      font-size: 25px;
+      font-weight: bold;
+      color: #10557E; }
+    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email {
+      font-size: 19px;
+      color: #10557E;
+      font-style: italic;
+      margin: 0 0 15px 0; }
+#zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields {
+  margin-bottom: 0; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields input[type="text"], #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields input[type="email"], #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields textarea {
+    background: #e1e1e1;
+    padding: 16px;
+    width: 100%; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields label {
+    padding: 8px 15px;
+    font-weight: 300;
+    font-size: 15px; }
+
+.zone-content .region-sidebar-second .block-testimonial-block-1 .views-row {
+  position: relative;
+  top: -40px; }
+.zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-client-picture {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: 59px; }
+  .zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-client-picture img {
+    border-radius: 62px;
+    border: 5px solid #C9C1C1;
+    width: 100px !important;
+    height: 100px !important; }
+.zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-body, .zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-name, .zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-client-title {
+  background: #C9C1C1;
+  padding: 10px; }
+.zone-content .region-sidebar-second .block-testimonial-block-1 h2 {
+  text-align: center;
+  padding-top: 10px; }
+
+.block-views-prp-services-block .views-row {
+  width: 373px;
+  float: left;
+  margin: 0 10px;
+  height: 380px; }
+  .block-views-prp-services-block .views-row .views-field-view-node {
+    margin: 10px 0;
+    text-align: center; }
+    .block-views-prp-services-block .views-row .views-field-view-node a {
+      background: #10557E;
+      padding: 10px;
+      border-radius: 2px;
+      color: #fff;
+      display: block; }
+  .block-views-prp-services-block .views-row .views-field-field-prp-image img {
+    width: 100%; }
+  .block-views-prp-services-block .views-row .views-field-body {
+    position: relative;
+    bottom: 32px;
+    height: 47px; }
+  .block-views-prp-services-block .views-row .views-field-field-prp-teaser {
+    height: 36px;
+    margin: 10px 0 14px; }
+  .block-views-prp-services-block .views-row .views-field-title {
+    background: #000;
+    padding: 10px; }
+    .block-views-prp-services-block .views-row .views-field-title a {
+      color: #fff; }
+
+.view-iv-infusion-therapy-services .views-row {
+  width: 373px;
+  float: left;
+  margin: 0 10px;
+  height: 380px; }
+  .view-iv-infusion-therapy-services .views-row .views-field-view-node {
+    margin: 10px 0;
+    text-align: center; }
+    .view-iv-infusion-therapy-services .views-row .views-field-view-node a {
+      background: #10557E;
+      padding: 10px;
+      border-radius: 2px;
+      color: #fff;
+      display: block; }
+  .view-iv-infusion-therapy-services .views-row .views-field-field-iv-therapy-image img {
+    width: 100%; }
+  .view-iv-infusion-therapy-services .views-row .views-field-body {
+    position: relative;
+    bottom: 32px;
+    height: 47px; }
+  .view-iv-infusion-therapy-services .views-row .views-field-field-iv-teaser {
+    height: 36px;
+    margin: 10px 0 14px; }
+  .view-iv-infusion-therapy-services .views-row .views-field-title {
+    background: #000;
+    padding: 10px; }
+    .view-iv-infusion-therapy-services .views-row .views-field-title a {
+      color: #fff; }
+
+.block-views-services-block .views-row {
+  width: 100%;
+  float: left;
+  margin: 0;
+  height: auto; }
+  .block-views-services-block .views-row .views-field-view-node {
+    margin: 10px 0;
+    text-align: center; }
+    .block-views-services-block .views-row .views-field-view-node a {
+      background: #10557E;
+      padding: 10px;
+      border-radius: 2px;
+      color: #fff;
+      display: block; }
+  .block-views-services-block .views-row .views-field-field-service-image img {
+    width: 100%; }
+  .block-views-services-block .views-row .views-field-body {
+    position: relative;
+    bottom: 32px;
+    height: 47px; }
+  .block-views-services-block .views-row .views-field-field-teaser {
+    height: 36px;
+    margin: 10px 0 14px; }
+  .block-views-services-block .views-row .views-field-title {
+    background: #000;
+    padding: 10px; }
+    .block-views-services-block .views-row .views-field-title a {
+      color: #fff; }
+
+.zone-branding .region-menu {
+  margin: 10px; }
+  .zone-branding .region-menu .block-superfish li .sf-sub-indicator {
+    top: 0.9em; }
+  .zone-branding .region-menu .block-superfish select {
+    width: 100%;
+    padding: 15px; }
+
+.region-menu .block-superfish .menuparent ul {
+  background: #eaeaea;
+  padding: 0 !important;
+  border-radius: 2px; }
+  .region-menu .block-superfish .menuparent ul li {
+    margin: 0; }
+
+.zone-branding .block-superfish {
+  margin: 40px 0 0 0; }
+
+#region-user-third {
+  height: 100%; }
+  #region-user-third .region-user-third-inner #block-block-15 {
+    line-height: 40px;
+    color: #fff; }
+    #region-user-third .region-user-third-inner #block-block-15 a {
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+      text-shadow: 1px 1px 1px #5d5d5d; }
+
+#region-user-second {
+  background-color: #DCB55A;
+  width: 100%; }
+  #region-user-second #block-superfish-2 {
+    width: 300px; }
+    #region-user-second #block-superfish-2 ul#superfish-2 {
+      line-height: 38px;
+      background: #dcb55a; }
+      #region-user-second #block-superfish-2 ul#superfish-2 li.firstandlast {
+        background: #dcb55a; }
+        #region-user-second #block-superfish-2 ul#superfish-2 li.firstandlast span {
+          color: #fff;
+          font-size: 18px;
+          font-weight: bold;
+          margin: 5px;
+          text-shadow: 1px 1px 1px #5d5d5d; }
+      #region-user-second #block-superfish-2 ul#superfish-2 ul {
+        top: 40px; }
+      #region-user-second #block-superfish-2 ul#superfish-2 li {
+        width: 100%; }
+        #region-user-second #block-superfish-2 ul#superfish-2 li a {
+          padding: 10px 0;
+          line-height: 1; }
+  #region-user-second .block .content p {
+    font-size: 10px; }
+
+.node-type-locations .group-left .field-item {
+  background: #DCB55A;
+  text-align: center;
+  float: left;
+  margin: 0 0 10px 0;
+  width: 99%; }
+  .node-type-locations .group-left .field-item .field-name-field-employee-name {
+    font-weight: 400;
+    color: #fff;
+    float: left;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background: #282828; }
+    .node-type-locations .group-left .field-item .field-name-field-employee-name .field-item {
+      margin: 10px;
+      background: transparent; }
+  .node-type-locations .group-left .field-item .field-name-field-employee-information {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    margin: 0 0 10px 0;
+    text-shadow: 1px 1px 1px #5A5A5A;
+    border-radius: 0; }
+    .node-type-locations .group-left .field-item .field-name-field-employee-information .field-item {
+      background: transparent; }
+  .node-type-locations .group-left .field-item .field-name-field-employee-picture {
+    width: 100%; }
+    .node-type-locations .group-left .field-item .field-name-field-employee-picture .field-item {
+      background: transparent;
+      width: 100%; }
+    .node-type-locations .group-left .field-item .field-name-field-employee-picture img {
+      margin: 10px;
+      border-radius: 101px;
+      border: 10px solid #fafafa;
+      box-shadow: 0px 0px 2px #545454; }
+
+.node-type-locations .zone-content .region-content {
+  position: relative;
+  bottom: 0; }
+  .node-type-locations .zone-content .region-content #page-title {
+    font-size: 25px;
+    color: #000;
+    text-shadow: 0 0 8px #C2C2C2;
+    margin: 10px; }
+  .node-type-locations .zone-content .region-content .group-right .field-type-office-hours, .node-type-locations .zone-content .region-content .group-right .field-name-field-locations-info {
+    padding: 0;
+    background: #DCB55A;
+    color: #fff;
+    margin: 10px 0;
+    border-radius: 3px; }
+    .node-type-locations .zone-content .region-content .group-right .field-type-office-hours .region, .node-type-locations .zone-content .region-content .group-right .field-name-field-locations-info .region {
+      margin: 0; }
+    .node-type-locations .zone-content .region-content .group-right .field-type-office-hours .field-label, .node-type-locations .zone-content .region-content .group-right .field-name-field-locations-info .field-label {
+      font-weight: bold;
+      padding: 10px;
+      background: #282828;
+      border-radius: 3px 3px 0 0;
+      color: #fff; }
+    .node-type-locations .zone-content .region-content .group-right .field-type-office-hours .field-items, .node-type-locations .zone-content .region-content .group-right .field-name-field-locations-info .field-items {
+      text-shadow: 1px 1px 1px #5A5A5A;
+      padding: 10px;
+      font-weight: 500; }
+
+.node-locations .group-left {
+  width: 100%; }
+.node-locations .group-right {
+  width: 100%; }
+
+.block-views-clinic-slideshow-block {
+  z-index: 0;
+  position: relative; }
+  .block-views-clinic-slideshow-block .views-row a.active {
+    width: 100%;
+    display: block;
+    text-align: center; }
+
+.zone-content #block-views-doctors-list-block .view-doctors-list {
+  margin-top: 40px; }
+  .zone-content #block-views-doctors-list-block .view-doctors-list .views-row {
+    background: #DCB55A;
+    margin: 0 10px 40px 0;
+    border-radius: 5px;
+    float: left;
+    text-align: left; }
+    .zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-name {
+      font-weight: 400;
+      color: #fff;
+      float: left;
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+      background: #282828; }
+      .zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-name .field-content {
+        margin: 10px; }
+    .zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-picture {
+      width: 100%;
+      text-align: center;
+      float: left; }
+      .zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-picture img {
+        margin: 10px;
+        border-radius: 101px;
+        border: 10px solid #fafafa;
+        box-shadow: 0px 0px 2px #545454; }
+    .zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-information {
+      width: auto;
+      float: right;
+      margin: 10px;
+      font-size: 12px;
+      color: #fff;
+      text-shadow: 1px 1px 1px #5A5A5A; }
+.zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row {
+  float: left;
+  width: 100%;
+  height: 410px;
+  background-color: #DCB55A;
+  padding: 46px 0;
+  margin: 5px 0;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #eaeaea; }
+  .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-address {
+    text-align: center; }
+  .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-street, .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-postal-code, .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-phone, .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-fax, .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-email, .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-address {
+    text-align: center; }
+  .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-view-node {
+    text-align: center;
+    margin: 20px 0; }
+    .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-view-node a {
+      background: #fff;
+      padding: 10px;
+      border-radius: 2px;
+      color: #5C4611;
+      font-weight: bold; }
+  .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-title {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 15px; }
+  .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-field-main-clinic-image {
+    width: 100%;
+    text-align: center; }
+    .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-field-main-clinic-image img {
+      border-radius: 101px;
+      border: 10px solid #FFFFFF;
+      box-shadow: 0px 0px 1px #474747; }
+
+#zone-postscript {
+  margin-bottom: 10px; }
+  #zone-postscript .block-block-11 {
+    padding: 15px 0; }
+    #zone-postscript .block-block-11 p {
+      text-align: center;
+      color: #fff;
+      margin: 0; }
+
+.block-webform-client-block-20 {
+  background: #c9c1c1;
+  padding: 10px;
+  margin: 10px 0; }
+  .block-webform-client-block-20 .form-textarea-wrapper {
+    width: 100%; }
+  .block-webform-client-block-20 h2 {
+    color: #10557E;
+    font-size: 22px;
+    text-align: center; }
+  .block-webform-client-block-20 label {
+    padding: 12px 12px;
+    font-weight: 300; }
+  .block-webform-client-block-20 input {
+    background: #e1e1e1;
+    padding: 20px;
+    width: 100%; }
+
+#zone-midzone2-wrapper {
+  height: 430px;
+  background-color: #434343; }
+  #zone-midzone2-wrapper .app-container {
+    padding: 50px; }
+    #zone-midzone2-wrapper .app-container .android-app, #zone-midzone2-wrapper .app-container .ios-app, #zone-midzone2-wrapper .app-container .windows-app, #zone-midzone2-wrapper .app-container .kindle-app {
+      height: 105px;
+      background-repeat: no-repeat !important;
+      background-size: contain !important;
+      float: left !important;
+      width: 240px;
+      margin: 7px 0px;
+      clear: both; }
+      #zone-midzone2-wrapper .app-container .android-app a, #zone-midzone2-wrapper .app-container .ios-app a, #zone-midzone2-wrapper .app-container .windows-app a, #zone-midzone2-wrapper .app-container .kindle-app a {
+        width: 100%;
+        height: 100%;
+        display: block; }
+    #zone-midzone2-wrapper .app-container .android-app {
+      background: url("../images/googel-play-badge.png"); }
+    #zone-midzone2-wrapper .app-container .ios-app {
+      background: url("../images/ios.svg"); }
+    #zone-midzone2-wrapper .app-container .windows-app {
+      background: url("../images/English-get-from.png"); }
+    #zone-midzone2-wrapper .app-container .kindle-app {
+      background: url("../images/kindle-fire.png"); }
+
+.context-careers .region-content .view-career-information {
+  margin-top: 26px; }
+  .context-careers .region-content .view-career-information .views-row {
+    background-color: #eaeaea;
+    margin-bottom: 50px; }
+    .context-careers .region-content .view-career-information .views-row .views-field-field-career-title {
+      background: #063c68;
+      color: #fff;
+      padding: 5px 10px;
+      font-size: 20px;
+      border-radius: 5px 5px 0 0; }
+    .context-careers .region-content .view-career-information .views-row .views-field-field-career-description, .context-careers .region-content .view-career-information .views-row .views-field-field-career-requirements {
+      padding: 20px; }
+    .context-careers .region-content .view-career-information .views-row .views-field-field-career-requirements span.views-label {
+      font-weight: bold;
+      font-size: 15px; }
+.context-careers .region-sidebar-second section#block-webform-client-block-84 {
+  background-color: #eaeaea;
+  margin-top: 46px; }
+  .context-careers .region-sidebar-second section#block-webform-client-block-84 h2.block-title {
+    color: #fff;
+    background-color: #063c68;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px 5px 0 0; }
+  .context-careers .region-sidebar-second section#block-webform-client-block-84 .webform-component--career-submission .form-item-jump select {
+    width: 100%; }
+  .context-careers .region-sidebar-second section#block-webform-client-block-84 .webform-component--career-submission input.form-submit {
+    display: none !important; }
+  .context-careers .region-sidebar-second section#block-webform-client-block-84 form#webform-client-form-84 {
+    padding: 10px; }
+    .context-careers .region-sidebar-second section#block-webform-client-block-84 form#webform-client-form-84 .form-actions input.form-submit {
+      width: 100%;
+      background: #118ac1;
+      color: #fff;
+      height: 50px;
+      font-size: 20px; }
+
+#block-block-12 {
+  background: #dab359;
+  text-align: center;
+  color: #fff;
+  padding: 40px 0; }
+  #block-block-12 .sidebar-more-info {
+    font-size: 30px;
+    text-transform: capitalize; }
+  #block-block-12 a.sidebar-info-link {
+    padding: 5px 30px;
+    font-size: 30px;
+    color: #fff;
+    background: #095480;
+    border-radius: 6px;
+    text-transform: capitalize; }
+    #block-block-12 a.sidebar-info-link:hover {
+      color: #000; }
+
+.node-type-iv-infusion-therapy-services .zone-content, .node-type-prp-services .zone-content, .node-type-services .zone-content {
+  margin-top: 50px; }
+
+#block-multiblock-3 {
+  background: #095480;
+  color: #fff; }
+  #block-multiblock-3 h2.block-title {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px; }
+  #block-multiblock-3 form.webform-client-form-89 {
+    padding: 30px; }
+    #block-multiblock-3 form.webform-client-form-89 .webform-component {
+      color: #000; }
+      #block-multiblock-3 form.webform-client-form-89 .webform-component label {
+        padding: 0 11px; }
+      #block-multiblock-3 form.webform-client-form-89 .webform-component input {
+        padding: 0 10px; }
+      #block-multiblock-3 form.webform-client-form-89 .webform-component.webform-component--date label, #block-multiblock-3 form.webform-client-form-89 .webform-component.webform-component--time label {
+        position: relative;
+        color: #fff;
+        padding: 0; }
+      #block-multiblock-3 form.webform-client-form-89 .webform-component.webform-component--date .webform-datepicker input {
+        padding: 5px 0; }
+    #block-multiblock-3 form.webform-client-form-89 .form-actions input {
+      width: 100%;
+      padding: 15px;
+      font-size: 20px; }
+
+#zone-appointments-wrapper {
+  background: #095480;
+  color: #fff; }
+  #zone-appointments-wrapper .region-appointments-first section#block-webform-client-block-89 h2.block-title {
+    color: #fff;
+    text-align: center;
+    font-size: 50px; }
+  #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 {
+    color: #000; }
+    #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 .webform-component {
+      float: left;
+      width: 50%; }
+      #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 .webform-component.webform-component--date {
+        width: 20%; }
+        #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 .webform-component.webform-component--date input {
+          padding: 5px; }
+      #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 .webform-component.webform-component--date label, #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 .webform-component.webform-component--time label {
+        position: relative;
+        color: #fff;
+        padding: 0; }
+      #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 .webform-component.webform-component--message {
+        float: initial;
+        width: initial;
+        clear: both; }
+        #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 .webform-component.webform-component--message textarea {
+          padding: 10px 17px; }
+      #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 .webform-component label {
+        padding: 8px 17px; }
+      #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 .webform-component input {
+        padding: 16px; }
+    #zone-appointments-wrapper .region-appointments-first form#webform-client-form-89 .form-actions input {
+      width: 100%;
+      padding: 15px;
+      font-size: 20px; }
+
+.context-schedule-appointment #zone-content {
+  display: none; }
+
+ul#superfish-2 ul {
+  right: initial !important; }
+  ul#superfish-2 ul li {
+    margin: 0;
+    padding: 0 10px; }
+    ul#superfish-2 ul li a {
+      border: none;
+      border-top: 1px solid #e1e1e1;
+      border-bottom: 1px solid #e1e1e1;
+      font-size: 16px !important; }
+      ul#superfish-2 ul li a span {
+        display: block;
+        color: #000 !important;
+        text-shadow: none !important;
+        font-weight: normal !important;
+        margin: 5px 0 0 0 !important;
+        font-size: 14px !important; }
+
+.page-node-97 article .field-item strong u img {
+  width: 50%; }
+
+.block-search-api-geo-search {
+  background: #dcb55a;
+  text-align: center; }
+  .block-search-api-geo-search h2.block-title {
+    font-weight: bold;
+    padding: 20px 20px 0 20px;
+    font-size: 30px;
+    color: #063c68; }
+  .block-search-api-geo-search form#search-api-geo-search-form {
+    background: #dcb55a;
+    padding: 20px;
+    color: #fff; }
+    .block-search-api-geo-search form#search-api-geo-search-form .form-item-states label {
+      display: none;
+      position: relative;
+      text-align: center;
+      font-size: 20px; }
+    .block-search-api-geo-search form#search-api-geo-search-form .form-item-states select {
+      width: 100%;
+      padding: 10px; }
+    .block-search-api-geo-search form#search-api-geo-search-form .form-item-city-zip {
+      color: #000; }
+      .block-search-api-geo-search form#search-api-geo-search-form .form-item-city-zip label {
+        padding: 7px 17px !important; }
+      .block-search-api-geo-search form#search-api-geo-search-form .form-item-city-zip input {
+        padding: 15px; }
+    .block-search-api-geo-search form#search-api-geo-search-form .form-item-distance select {
+      width: 100%;
+      padding: 10px; }
+    .block-search-api-geo-search form#search-api-geo-search-form input.form-submit {
+      width: 100%;
+      padding: 10px; }
+
+@media (min-width: 320px) and (max-width: 359px) {
+  #zone-user-wrapper #region-user-third {
+    z-index: 9999; }
+    #zone-user-wrapper #region-user-third .region-user-third-inner {
+      text-align: center; }
+  #zone-user-wrapper #region-user-second {
+    padding-top: 40px; }
+
+  #zone-user-wrapper #block-block-1 a.social-button {
+    margin: 4px 9px !important; }
+  #zone-user-wrapper #block-superfish-2 {
+    margin: 0 auto;
+    width: 290px; }
+    #zone-user-wrapper #block-superfish-2 select#superfish-2-select {
+      margin-top: 5px; }
+
+  #zone-preface-wrapper .read-more-button {
+    padding: 0 !important; }
+
+  #zone-postscript-wrapper .block-front-page-testimonials-block .views-row {
+    width: 100%; }
+
+  #zone-appointments-wrapper #webform-client-form-89 .webform-component {
+    width: 100% !important; }
+
+  #zone-content .view-services .views-row .views-field-field-teaser {
+    margin: 10px 0 30px !important; }
+  #zone-content .view-iv-infusion-therapy-services .views-row, #zone-content .view-prp-services .views-row {
+    width: 100%;
+    margin: 0; }
+    #zone-content .view-iv-infusion-therapy-services .views-row .views-field-field-iv-teaser, #zone-content .view-iv-infusion-therapy-services .views-row .views-field-field-prp-teaser, #zone-content .view-prp-services .views-row .views-field-field-iv-teaser, #zone-content .view-prp-services .views-row .views-field-field-prp-teaser {
+      margin: 10px 0 30px; }
+
+  .node-type-iv-infusion-therapy-services #zone-appointments-wrapper, .node-type-prp-services #zone-appointments-wrapper {
+    display: none; }
+  .node-type-iv-infusion-therapy-services article.node-iv-infusion-therapy-services iframe, .node-type-iv-infusion-therapy-services article.node-prp-services iframe, .node-type-prp-services article.node-iv-infusion-therapy-services iframe, .node-type-prp-services article.node-prp-services iframe {
+    width: 100%; } }
+@media (min-width: 360px) and (max-width: 374px) {
+  #zone-user-wrapper #region-user-third {
+    z-index: 9999; }
+    #zone-user-wrapper #region-user-third .region-user-third-inner {
+      text-align: center; }
+  #zone-user-wrapper #region-user-second {
+    padding-top: 40px; }
+
+  #zone-user-wrapper #block-block-1 a.social-button {
+    margin: 4px 13px !important; }
+  #zone-user-wrapper #block-superfish-2 {
+    margin: 0 auto;
+    width: 290px; }
+    #zone-user-wrapper #block-superfish-2 select#superfish-2-select {
+      margin-top: 5px; }
+
+  #zone-preface-wrapper .read-more-button {
+    padding: 0 !important; }
+
+  #zone-postscript-wrapper .block-front-page-testimonials-block .views-row {
+    width: 100%; }
+
+  #zone-appointments-wrapper #webform-client-form-89 .webform-component {
+    width: 100% !important; }
+
+  #zone-content .view-services .views-row .views-field-field-teaser {
+    margin: 10px 0 30px !important; }
+  #zone-content .view-iv-infusion-therapy-services .views-row, #zone-content .view-prp-services .views-row {
+    width: 100%;
+    margin: 0; }
+    #zone-content .view-iv-infusion-therapy-services .views-row .views-field-field-iv-teaser, #zone-content .view-iv-infusion-therapy-services .views-row .views-field-field-prp-teaser, #zone-content .view-prp-services .views-row .views-field-field-iv-teaser, #zone-content .view-prp-services .views-row .views-field-field-prp-teaser {
+      margin: 10px 0 30px; }
+
+  .node-type-iv-infusion-therapy-services #zone-appointments-wrapper, .node-type-prp-services #zone-appointments-wrapper {
+    display: none; }
+  .node-type-iv-infusion-therapy-services article.node-iv-infusion-therapy-services iframe, .node-type-iv-infusion-therapy-services article.node-prp-services iframe, .node-type-prp-services article.node-iv-infusion-therapy-services iframe, .node-type-prp-services article.node-prp-services iframe {
+    width: 100%; } }
+@media (min-width: 375px) and (max-width: 410px) {
+  #zone-user-wrapper #region-user-third {
+    z-index: 9999; }
+    #zone-user-wrapper #region-user-third .region-user-third-inner {
+      text-align: center; }
+  #zone-user-wrapper #region-user-second {
+    padding-top: 40px; }
+
+  #zone-user-wrapper #block-block-1 a.social-button {
+    margin: 4px 14px !important; }
+  #zone-user-wrapper #block-superfish-2 {
+    margin: 0 auto;
+    width: 290px; }
+    #zone-user-wrapper #block-superfish-2 select#superfish-2-select {
+      margin-top: 5px; }
+
+  #zone-preface-wrapper .read-more-button {
+    padding: 0 !important; }
+
+  #zone-postscript-wrapper .block-front-page-testimonials-block .views-row {
+    width: 100%; }
+
+  #zone-appointments-wrapper #webform-client-form-89 .webform-component {
+    width: 100% !important; }
+
+  #zone-content .view-services .views-row .views-field-field-teaser {
+    margin: 10px 0 30px !important; }
+  #zone-content .view-iv-infusion-therapy-services .views-row, #zone-content .view-prp-services .views-row {
+    width: 100%;
+    margin: 0; }
+    #zone-content .view-iv-infusion-therapy-services .views-row .views-field-field-iv-teaser, #zone-content .view-iv-infusion-therapy-services .views-row .views-field-field-prp-teaser, #zone-content .view-prp-services .views-row .views-field-field-iv-teaser, #zone-content .view-prp-services .views-row .views-field-field-prp-teaser {
+      margin: 10px 0 30px; }
+
+  .node-type-iv-infusion-therapy-services #zone-appointments-wrapper, .node-type-prp-services #zone-appointments-wrapper {
+    display: none; }
+  .node-type-iv-infusion-therapy-services article.node-iv-infusion-therapy-services iframe, .node-type-iv-infusion-therapy-services article.node-prp-services iframe, .node-type-prp-services article.node-iv-infusion-therapy-services iframe, .node-type-prp-services article.node-prp-services iframe {
+    width: 100%; } }
+@media (min-width: 411px) and (max-width: 414px) {
+  #zone-user-wrapper #region-user-third {
+    z-index: 9999; }
+    #zone-user-wrapper #region-user-third .region-user-third-inner {
+      text-align: center; }
+  #zone-user-wrapper #region-user-second {
+    padding-top: 40px; }
+
+  #zone-user-wrapper #block-block-1 a.social-button {
+    margin: 4px 17px !important; }
+  #zone-user-wrapper #block-superfish-2 {
+    margin: 0 auto;
+    width: 290px; }
+    #zone-user-wrapper #block-superfish-2 select#superfish-2-select {
+      margin-top: 5px; }
+
+  #zone-preface-wrapper .read-more-button {
+    padding: 0 !important; }
+
+  #zone-postscript-wrapper .block-front-page-testimonials-block .views-row {
+    width: 100%; }
+
+  #zone-appointments-wrapper #webform-client-form-89 .webform-component {
+    width: 100% !important; }
+
+  #zone-content .view-services .views-row .views-field-field-teaser {
+    margin: 10px 0 30px !important; }
+  #zone-content .view-iv-infusion-therapy-services .views-row, #zone-content .view-prp-services .views-row {
+    width: 100%;
+    margin: 0; }
+    #zone-content .view-iv-infusion-therapy-services .views-row .views-field-field-iv-teaser, #zone-content .view-iv-infusion-therapy-services .views-row .views-field-field-prp-teaser, #zone-content .view-prp-services .views-row .views-field-field-iv-teaser, #zone-content .view-prp-services .views-row .views-field-field-prp-teaser {
+      margin: 10px 0 30px; }
+
+  .node-type-iv-infusion-therapy-services #zone-appointments-wrapper, .node-type-prp-services #zone-appointments-wrapper {
+    display: none; }
+  .node-type-iv-infusion-therapy-services article.node-iv-infusion-therapy-services iframe, .node-type-iv-infusion-therapy-services article.node-prp-services iframe, .node-type-prp-services article.node-iv-infusion-therapy-services iframe, .node-type-prp-services article.node-prp-services iframe {
+    width: 100%; } }
+@media (min-width: 434px) and (max-width: 436px) {
+  #zone-user-wrapper #region-user-third {
+    z-index: 9999; }
+    #zone-user-wrapper #region-user-third .region-user-third-inner {
+      text-align: center; }
+  #zone-user-wrapper #region-user-second {
+    padding-top: 40px; }
+
+  #zone-user-wrapper #block-block-1 a.social-button {
+    margin: 4px 19px !important; }
+  #zone-user-wrapper #block-superfish-2 {
+    margin: 0 auto;
+    width: 290px; }
+    #zone-user-wrapper #block-superfish-2 select#superfish-2-select {
+      margin-top: 5px; }
+
+  #zone-preface-wrapper .read-more-button {
+    padding: 0 !important; }
+
+  #zone-postscript-wrapper .block-front-page-testimonials-block .views-row {
+    width: 100%; }
+
+  #zone-appointments-wrapper #webform-client-form-89 .webform-component {
+    width: 100% !important; }
+
+  #zone-content .view-services .views-row .views-field-field-teaser {
+    margin: 10px 0 30px !important; }
+  #zone-content .view-iv-infusion-therapy-services .views-row, #zone-content .view-prp-services .views-row {
+    width: 100%;
+    margin: 0; }
+    #zone-content .view-iv-infusion-therapy-services .views-row .views-field-field-iv-teaser, #zone-content .view-iv-infusion-therapy-services .views-row .views-field-field-prp-teaser, #zone-content .view-prp-services .views-row .views-field-field-iv-teaser, #zone-content .view-prp-services .views-row .views-field-field-prp-teaser {
+      margin: 10px 0 30px; }
+
+  .node-type-iv-infusion-therapy-services #zone-appointments-wrapper, .node-type-prp-services #zone-appointments-wrapper {
+    display: none; }
+  .node-type-iv-infusion-therapy-services article.node-iv-infusion-therapy-services iframe, .node-type-iv-infusion-therapy-services article.node-prp-services iframe, .node-type-prp-services article.node-iv-infusion-therapy-services iframe, .node-type-prp-services article.node-prp-services iframe {
+    width: 100%; } }
+@media (min-width: 1648px) {
+  ul#superfish-2 ul {
+    left: 0 !important; } }
+#comments h2.comment-form {
+  background: #fff;
+  border-bottom: 1px solid #656565; }
+#comments form.comment-form {
+  background: #fff; }
+  #comments form.comment-form .form-actions {
+    float: right; }
+
+#block-block-14 div.moving-text {
+  text-align: center;
+  background: #ced6e1;
+  color: #095480;
+  font-size: 25px;
+  font-weight: bold; }
+  #block-block-14 div.moving-text span.special-text {
+    color: #ff0000; }
