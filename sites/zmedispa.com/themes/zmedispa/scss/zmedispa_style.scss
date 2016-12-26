@@ -142,6 +142,28 @@ body {
   }
 }
 
+#block-views-accepted-insurance-block {
+	h2.block-title {
+		color: #015383;
+		font-weight: bold;
+		font-size: 30px;
+		padding: 0 0 10px 15px;
+	}
+}
+
+.view-accepted-insurance {
+	margin-bottom: 30px;
+
+	.view-content {
+		display: inline-flex;
+		
+		.views-row {
+			float: left;
+			margin: 0 15px;
+		}
+	}
+}
+
 .zone-postscript-wrapper {
   background: #dcb65b;
     .block-front-page-testimonials-block {
@@ -341,6 +363,8 @@ h1#page-title {
       margin: 0 0 16px 0;
       img {
         border-radius: 50px;
+	width: 100px !important;
+	height: 100px !important;
       }
     }
       h2 {
@@ -876,6 +900,8 @@ h1#page-title {
           img {
             border-radius: 62px;
             border: 5px solid #C9C1C1;
+	    width: 100px !important;
+	    height: 100px !important;
           }
         }
         .views-field-body, .views-field-field-name, .views-field-field-client-title {

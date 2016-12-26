@@ -50,6 +50,8 @@ regions[footer2_second] = Footer2 Second
 
 regions[appointments_first] = Appointments First
 
+regions[insurance] = Insurance Region
+
 ; ZONES
 
 zones[user] = User
@@ -66,7 +68,7 @@ zones[midzone3] = Middle Third
 zones[footer] = Footer first
 zones[footer2] = Footer second
 zones[appointments] = Appointments
-
+zones[insurance] = Insurance
 ; OPTIONAL STYLESHEETS
 
 css[zmedispa_theme_style.css][name] = ZMediSpa theme global style.
