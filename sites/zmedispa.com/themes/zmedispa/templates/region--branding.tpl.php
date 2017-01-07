@@ -4,7 +4,8 @@
     <div class="branding-data">
       <?php if ($linked_logo_img): ?>
       <div class="logo-img">
-        <?php print $linked_logo_img; ?>
+        <!-- <?php print $linked_logo_img; ?> -->
+       <a href="/" rel="home" title="" class="active"><img src="https://www.zmedclinic.com/sites/zmedispa.com/files/zmedspa-logo_0.png" alt="logo" id="logo" /></a>
       </div>
       <?php endif; ?>
       <?php if ($site_name || $site_slogan): ?>
