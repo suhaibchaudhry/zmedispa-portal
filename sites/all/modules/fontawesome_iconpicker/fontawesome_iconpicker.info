@@ -1,0 +1,11 @@
+name = Font Awesome Iconpicker
+description = A convinient icon picker library for text fields.
+dependencies[] = fontawesome
+core = "7.x"
+
+; Information added by Drupal.org packaging script on 2016-07-22
+version = "7.x-1.0-alpha1+3-dev"
+core = "7.x"
+project = "fontawesome_iconpicker"
+datestamp = "1469189346"
+
