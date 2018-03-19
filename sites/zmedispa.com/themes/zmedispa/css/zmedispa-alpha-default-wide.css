@@ -40,3 +40,9 @@ h1#page-title {
 .context-blog aside#region-sidebar-second {
   width: 290px;
   float: right; }
+
+.zone-branding .block-superfish {
+  display: block; }
+
+#region-menu .responsive-menus {
+  display: none; }
