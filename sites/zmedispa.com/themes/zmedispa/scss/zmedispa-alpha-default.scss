@@ -186,6 +186,7 @@
 .zone-branding {
   .block-superfish {
     margin: 70px 0 0 0;
+    display: block;
   }
 }
 
@@ -417,4 +418,8 @@ h1#page-title {
 		width: 290px;
 		float: right;
 	}
+}
+
+#region-menu .responsive-menus {
+  display: none;
 }

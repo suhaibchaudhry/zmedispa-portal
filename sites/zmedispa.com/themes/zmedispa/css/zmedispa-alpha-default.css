@@ -114,7 +114,8 @@
       color: #fff; }
 
 .zone-branding .block-superfish {
-  margin: 70px 0 0 0; }
+  margin: 70px 0 0 0;
+  display: block; }
 
 #region-fo-second {
   background-color: #D9B259;
@@ -253,3 +254,6 @@ h1#page-title {
 .context-blog aside#region-sidebar-second {
   width: 290px;
   float: right; }
+
+#region-menu .responsive-menus {
+  display: none; }
