@@ -113,8 +113,8 @@
     .block-menu-menu-footer-menu .menu li a {
       color: #fff; }
 
-.zone-branding .block-superfish {
-  margin: 70px 0 0 0; }
+#region-menu {
+  padding-top: 70px; }
 
 #region-fo-second {
   background-color: #D9B259;

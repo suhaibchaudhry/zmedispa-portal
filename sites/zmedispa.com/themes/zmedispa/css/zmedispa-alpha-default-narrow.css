@@ -72,10 +72,11 @@
     .block-views-services-block .views-row .views-field-title a {
       color: #fff; }
 
-.zone-branding .block-superfish {
-  margin: 56px 0 0 0; }
-  .zone-branding .block-superfish ul li a {
-    padding: 0.75em .50em; }
+.zone-branding .block-superfish ul li a {
+  padding: 0.75em .50em; }
+
+#region-menu {
+  padding-top: 56px; }
 
 #region-user-second {
   background-color: #D9B259;

@@ -42,7 +42,7 @@ overflow: hidden;
   background: #DCB55A;
   line-height: 34px;
   height: 40px;
-  z-index: 500;
+  z-index: 1000;
 
   .block-block-2 {
     width: 100%;
@@ -1080,10 +1080,13 @@ h1#page-title {
   }
 }
 
-.zone-branding {
-  .block-superfish {
-    margin: 40px 0 0 0;
-  }
+//.zone-branding {
+//  .block-superfish {
+//    margin: 40px 0 0 0;
+//  }
+//}
+#region-menu {
+	 padding-top: 40px;
 }
 
 #region-user-third {
@@ -2259,9 +2262,9 @@ ul#superfish-2 ul {
 		}
 	}
 }
-.responsive-menus.responsified span.toggler {
-      background: #013766;
-}
+//#block-system-main-menu span.toggler {
+//      background: #013766;
+//}
 #healow-root {
 	float: left;
     width: 160px;
@@ -2270,4 +2273,11 @@ ul#superfish-2 ul {
     margin-left: 19px;
     overflow: hidden;
     //height: 68px;
+}
+.dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active, .dl-menuwrapper ul, .dl-menuwrapper button {
+    background: #013766;
+}
+
+.dl-menuwrapper li.dl-back:after, .dl-menuwrapper li > a:not(:only-child):after {
+  color: #fff;
 }

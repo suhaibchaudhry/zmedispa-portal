@@ -73,8 +73,8 @@
     font-weight: 300;
     font-size: 15px; }
 
-.zone-branding .block-superfish {
-  margin: 60px 0 0 0; }
+#region-menu {
+  padding-top: 60px; }
 
 h1#page-title {
   font-size: 41px; }

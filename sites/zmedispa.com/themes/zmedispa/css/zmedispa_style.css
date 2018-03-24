@@ -31,7 +31,7 @@ body {
   background: #DCB55A;
   line-height: 34px;
   height: 40px;
-  z-index: 500; }
+  z-index: 1000; }
   #zone-user-wrapper .block-block-2 {
     width: 100%;
     text-align: center;
@@ -698,8 +698,8 @@ h1#page-title {
   .region-menu .block-superfish .menuparent ul li {
     margin: 0; }
 
-.zone-branding .block-superfish {
-  margin: 40px 0 0 0; }
+#region-menu {
+  padding-top: 40px; }
 
 #region-user-third {
   height: 100%; }
@@ -1320,9 +1320,6 @@ ul#superfish-2 ul {
   #block-block-14 div.moving-text span.special-text {
     color: #ff0000; }
 
-.responsive-menus.responsified span.toggler {
-  background: #013766; }
-
 #healow-root {
   float: left;
   width: 160px;
@@ -1330,3 +1327,9 @@ ul#superfish-2 ul {
   margin-top: -75px;
   margin-left: 19px;
   overflow: hidden; }
+
+.dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active, .dl-menuwrapper ul, .dl-menuwrapper button {
+  background: #013766; }
+
+.dl-menuwrapper li.dl-back:after, .dl-menuwrapper li > a:not(:only-child):after {
+  color: #fff; }
