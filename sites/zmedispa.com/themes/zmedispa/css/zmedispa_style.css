@@ -27,6 +27,7 @@ body {
   margin-top: 0; }
 
 #zone-user-wrapper {
+  overflow: hidden;
   background: #DCB55A;
   line-height: 34px;
   height: 40px;
@@ -706,6 +707,7 @@ h1#page-title {
     line-height: 40px;
     color: #fff; }
     #region-user-third .region-user-third-inner #block-block-15 a {
+      float: left;
       color: #fff;
       font-weight: bold;
       font-size: 18px;
@@ -1320,3 +1322,11 @@ ul#superfish-2 ul {
 
 .responsive-menus.responsified span.toggler {
   background: #013766; }
+
+#healow-root {
+  float: left;
+  width: 160px;
+  /* height: 10px; */
+  margin-top: -75px;
+  margin-left: 19px;
+  overflow: hidden; }
