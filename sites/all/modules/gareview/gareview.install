@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * {@inheritdoc}
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function gareview_uninstall() {
+  variable_del('site_id');
+  variable_del('site_review_title');
+  variable_del('map_api_key');
+}

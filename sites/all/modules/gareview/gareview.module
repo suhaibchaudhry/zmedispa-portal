@@ -1,0 +1,129 @@
+<?php
+
+/**
+ * @file
+ * {@inheritdoc}
+ */
+
+/**
+ * {@inheritdoc}
+ */
+function gareview_block_info() {
+  $blocks['google_review'] = array(
+    'info' => t('Google Review'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+
+  return $blocks;
+}
+
+/**
+ * {@inheritdoc}
+ */
+function gareview_block_configure($delta = '') {
+  $form = array();
+  $options = array(
+    '1' => '1',
+    '2' => '2',
+    '3' => '3',
+    '4' => '4',
+    '5' => '5',
+  );
+
+  if ($delta == 'google_review') {
+    $form['google_site_place_id'] = array(
+      '#type' => 'textfield',
+      '#title' => t('Please enter valid place id.'),
+      '#default_value' => variable_get('site_id'),
+      '#description' => t('Find placeID: <a href="https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder">https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder</a>'),
+      '#required' => TRUE,
+      '#size' => 60,
+    );
+    $form['review_link_title'] = array(
+      '#type' => 'textfield',
+      '#title' => t('Please enter review link title'),
+      '#default_value' => variable_get('site_review_title', 'Write Review'),
+      '#required' => TRUE,
+      '#size' => 60,
+    );
+    $form['google_map_api_key'] = array(
+      '#type' => 'textfield',
+      '#title' => t('Please enter map api key'),
+      '#default_value' => variable_get('map_api_key'),
+      '#description' => t('Obtain a free Google javascript API Key at <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">https://developers.google.com/maps/documentation/javascript/get-api-key</a>'),
+      '#required' => TRUE,
+      '#size' => 60,
+    );
+    $form['min_rating'] = array(
+      '#type' => 'select',
+      '#options' => $options,
+      '#title' => t('Please select min_rating'),
+      '#default_value' => variable_get('min_rating', 5),
+    );
+    $form['max_rows'] = array(
+      '#type' => 'select',
+      '#options' => $options,
+      '#title' => t('Please select max_rows'),
+      '#default_value' => variable_get('max_rows', 5),
+
+    );
+  }
+  return $form;
+}
+
+/**
+ * {@inheritdoc}
+ */
+function gareview_block_save($delta = '', $edit = array()) {
+  if ($delta == 'google_review') {
+    variable_set('site_id', $edit['google_site_place_id']);
+    variable_set('site_review_title', $edit['review_link_title']);
+    variable_set('map_api_key', $edit['google_map_api_key']);
+    variable_set('min_rating', $edit['min_rating']);
+    variable_set('max_rows', $edit['max_rows']);
+  }
+}
+
+/**
+ * {@inheritdoc}
+ */
+function gareview_block_view($delta = '') {
+
+  // Get all variable.
+  $site_id = variable_get('site_id');
+  $link_text = variable_get('site_review_title');
+  $map_api_key = variable_get('map_api_key');
+  $min_rating = variable_get('min_rating');
+  $max_rows = variable_get('max_rows');
+
+  $site_review_variables['site_id'] = $site_id;
+  $site_review_variables['link_text'] = $link_text;
+  $site_review_variables['map_api_key'] = $map_api_key;
+  $site_review_variables['min_rating'] = $min_rating;
+  $site_review_variables['max_rows'] = $max_rows;
+
+  // Create url and attach.
+  $apiurl = "https://search.google.com/local/writereview?placeid=$site_id";
+  $module_path = drupal_get_path('module', 'gareview');
+  $map_api_keys_url = "https://maps.googleapis.com/maps/api/js?v=3.exp&key=$map_api_key&signed_in=true&libraries=places";
+  drupal_add_css($module_path . '/css/gareview.css');
+  drupal_add_js('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js', 'external');
+  drupal_add_js('https://cdn.rawgit.com/stevenmonson/googleReviews/6e8f0d79/google-places.js', 'external');
+  drupal_add_js($map_api_keys_url, 'external');
+  drupal_add_js($module_path . '/js/gareview.js');
+  drupal_add_js(array('gareview' => array('site_review_variables' => $site_review_variables)), array('type' => 'setting'));
+
+  $block = array();
+
+  switch ($delta) {
+    case 'google_review':
+      $block['subject'] = t('Google review');
+      $block['content'] = array(
+        '#markup' => '<div class="write Review"><a target="_blank" href="' . $apiurl . '">' . $link_text . '</a></div><div id="google-reviews"></div>',
+        '#title' => t('Google review'),
+      );
+      break;
+
+  }
+  return $block;
+}
